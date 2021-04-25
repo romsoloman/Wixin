@@ -4,13 +4,13 @@ import './AppHeader.scss'
 export const AppHeader = (props) => {
 
     return (
-        <header className='app-header'>
+        <header className='container flex align-center justify-between app-header'>
             <Link to="/">
                 <div className="logo">
                     <h1>Wixin</h1>
                 </div>
             </Link>
-            <div className="nav-items">
+            <div className="flex align-center justify-between nav-items">
                 <Link to="/templates">
                     <div className="templates">
                         <h4>templates</h4>
