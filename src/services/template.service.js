@@ -1,12 +1,12 @@
-import { utilService } from './util.service.js';
-import { httpService } from './http.service.js';
+// import { utilService } from './util.service.js';
+// import { httpService } from './http.service.js';
 const templateData = require('../data/template/template.json');
 // import axios from 'axios';
 
 // let gFilterBy = { name: '', inStock: 'all', types: [], sortBy: 'name', pageDiff: 0 };
 // const KEY = 'toysDB';
-// const TOY_URL = process.env.NODE_ENV !== 'development' 
-//             ? '/api/toy/' 
+// const TOY_URL = process.env.NODE_ENV !== 'development'
+//             ? '/api/toy/'
 //             : '//localhost:3030/api/toy/';
 
 export const templateService = {
@@ -22,7 +22,7 @@ export const templateService = {
 
 
 function setFilter(filterBy) {
-    gFilterBy = filterBy;
+    // gFilterBy = filterBy;
 }
 
 function query() {
@@ -36,7 +36,7 @@ function query() {
 }
 
 function getById(id) {
-    return httpService.get(`toy/${id}`)
+    // return httpService.get(`toy/${id}`)
     // return axios
     //     .get(TOY_URL + id)
     //     .then(({ data }) => data)
@@ -45,7 +45,7 @@ function getById(id) {
 }
 
 function remove(id) {
-    return httpService.delete(`toy/${id}`)
+    // return httpService.delete(`toy/${id}`)
 
     // return axios
     //     .delete(TOY_URL + id)
@@ -64,8 +64,8 @@ function save(toy) {
     //     .post(TOY_URL, toy)
     //     .then(({data}) => data)
     //     .catch((err) => err);
-    if (toy._id) return httpService.put(`toy/${toy._id}`, toy)
-    return httpService.post('toy/', toy)
+    // if (toy._id) return httpService.put(`toy/${toy._id}`, toy)
+    // return httpService.post('toy/', toy)
 }
 
 function getEmptyToy(name = '', price = 100, type, createdAt) {

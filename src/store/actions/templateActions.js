@@ -1,4 +1,4 @@
-import templateService from '../../services/template.service.js';
+import { templateService } from '../../services/template.service.js';
 
 // Thunk - Action Dispatcher
 export function loadTemplates(filterBy) {

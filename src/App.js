@@ -2,8 +2,6 @@ import {
   HashRouter as Router,
   Switch,
   Route,
-  Link,
-  Redirect
 } from "react-router-dom";
 import './App.scss';
 import './assets/styles/main.scss';
