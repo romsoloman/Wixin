@@ -1,4 +1,10 @@
-import { Route, Router, Switch } from 'react-router-dom';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import './App.scss';
 import './assets/styles/main.scss';
 import { AppHeader } from './cmps/AppHeader/AppHeader';
