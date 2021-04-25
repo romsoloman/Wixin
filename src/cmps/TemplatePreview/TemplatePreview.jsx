@@ -1,13 +1,18 @@
 
-
+import { useEffect } from 'react'
 import './TemplatePreview.scss'
 
-export const TemplatePreview = (props) => {
+export const TemplatePreview = ({template}) => {
+    useEffect(() => {
+        console.log('template', template);
+    }, [])
 
     return (
-        <div>
-        
-        </div>
+       template && <li className="template">
+            <main>
+                <img src={template.imgUrl} alt=""/>
+            </main>
+            <footer>{template.name}</footer>
+        </li>
     )
 }
-
