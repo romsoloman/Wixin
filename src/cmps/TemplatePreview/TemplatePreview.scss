@@ -1,1 +1,18 @@
-.templatePreview {}
+.template{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  & main{
+    flex: 9;
+    padding: 0;
+    & img{
+      height: 262px;
+      width: 100%;
+    }
+  }
+  & footer{
+    flex: 1;
+    padding: 0;
+  }
+}

@@ -1,15 +1,11 @@
 
-
-import { useEffect } from 'react'
+import {TemplatePreview} from '../TemplatePreview/TemplatePreview'
 import './TemplateList.scss'
 
 export const TemplateList = ({templates}) => {
-useEffect(()=>{
-    console.log('templates',templates );
-},[])
     return (
-        <div>
-
-        </div>
+        <ul className="template-list">
+            {templates.map((template) => <TemplatePreview template={template} key={template._id}/>)}
+        </ul>
     )
 }
