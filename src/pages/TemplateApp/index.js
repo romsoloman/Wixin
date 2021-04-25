@@ -1,0 +1,1 @@
+export { TemplateApp } from './TemplateApp'
