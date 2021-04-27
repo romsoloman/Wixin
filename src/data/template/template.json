@@ -2,21 +2,25 @@
     {
         "_id": "81019sjdla91j92192",
         "name": "Vita",
+        "addOns":{},
         "imgUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85"
     },
     {
         "_id": "85719sjdla91j92192",
         "name": "White Sands Hotel",
+        "addOns":{},
         "imgUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85"
     },
     {
         "_id": "8119sjdla91j92192",
         "name": "Basic",
+        "addOns":{},
         "imgUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85"
     },
     {
         "_id": "819sjdla91j92192",
         "name": "Startus",
+        "addOns":{},
         "imgUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85"
     }
 ]
