@@ -4,9 +4,18 @@ import { useDispatch, useSelector } from 'react-redux';
 import './ControllerAdd.scss'
 import {NavbarList} from '../NavbarList/NavbarList';
 import {HeroList} from '../HeroList/HeroList';
+import {SectionList} from '../SectionList/SectionList';
+import {CardList} from '../CardList/CardList';
+import {TextList} from '../TextList/TextList';
+import {ImageList} from '../ImageList/ImageList';
+
 const cmpMap = {
     'Navbars': NavbarList,
-    'Heroes': HeroList
+    'Heroes': HeroList,
+    'Sections':SectionList,
+    'Cards':CardList,
+    'Texts':TextList,
+    'Images':ImageList
 }
 
 export const ControllerAdd = (props) => {
