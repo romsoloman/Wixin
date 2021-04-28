@@ -39,4 +39,25 @@
       }
     ]
   },
+  {
+    "_id": "893428y423hj3",
+    "tagName": "Heroes",
+    "data": [
+      {
+        "id": "5246725627",
+        "imgUrl": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
+        "className": "hero-",
+        "style": {
+          "color": "blue",
+          "backgroundColor": "pink"
+        },
+        "html": {
+          "backgroundImage": "https://i.ibb.co/s3ptfYv/chateau.jpg",
+          "h1": "Welcome to my web",
+          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders",
+          "button": "Get Started"
+        }
+      }
+    ]
+  }
 ]

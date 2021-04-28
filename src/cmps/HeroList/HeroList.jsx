@@ -1,13 +1,17 @@
 
-
+import React, { useEffect } from 'react';
 import './HeroList.scss'
 
 export const HeroList = (props) => {
-    console.log('props', props);
-    return (
-        <ul className="items-list-controller">
+    useEffect(() => {
+        console.log('props', props);
+        return () => {
+        }
+    }, [])
 
-        </ul>
+    return (
+        <div>
+
+        </div>
     )
 }
-
