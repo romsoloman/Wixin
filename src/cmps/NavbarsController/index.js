@@ -1,1 +1,0 @@
-export { NavbarsController } from './NavbarsController'
