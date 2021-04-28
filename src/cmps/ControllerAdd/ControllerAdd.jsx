@@ -25,17 +25,16 @@ export const ControllerAdd = (props) => {
         dispatch(loadHtmlTags())
     }, [])
 
-    function getDynamicCmp(tagName, props){
+    function getDynamicCmp(tagName, props) {
         var DynamicCmp = cmpMap[tagName]
-        console.log('DynamicCmp', DynamicCmp);
-       return  <DynamicCmp props={props} key={props._id}/>
+        return <DynamicCmp props={props} key={props._id} />
     }
     return (
         htmlTags && <section className="controller-add">
             <button className="add-button">Add</button>
             <button className="add-button">Edit</button>
             {htmlTags.map((tag) =>
-            getDynamicCmp(tag.tagName,tag))}
+                getDynamicCmp(tag.tagName, tag))}
         </section>
     )
 }

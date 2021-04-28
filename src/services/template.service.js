@@ -36,6 +36,8 @@ function query() {
 }
 
 function getById(id) {
+    const template = templateData.find(t => t._id === id)
+    return Promise.resolve(template);
     // return httpService.get(`toy/${id}`)
     // return axios
     //     .get(TOY_URL + id)

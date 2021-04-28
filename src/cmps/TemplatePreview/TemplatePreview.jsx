@@ -1,5 +1,4 @@
 
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './TemplatePreview.scss'
 
@@ -8,7 +7,7 @@ export const TemplatePreview = ({ template }) => {
         template &&
         <li className="template">
             <main>
-                <img src={template.imgUrl} alt="" />
+                <img src={template.backgroundImg} alt="" />
             </main>
             <footer>{template.name}</footer>
             <div className="edit-preview">

@@ -1,7 +1,7 @@
 import { NavbarPreview } from '../NavbarPreview/NavbarPreview'
 import './NavbarList.scss'
 
-export const NavbarList = ({props}) => {
+export const NavbarList = ({ props }) => {
     return (
         props && <section>
             <h1>Navbar</h1>
