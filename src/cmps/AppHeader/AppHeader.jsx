@@ -7,6 +7,7 @@ export const AppHeader = (props) => {
         <header className='container flex align-center justify-between app-header'>
             <Link to="/">
                 <div className="logo">
+                    <img className="logo-img" src={"https://www.pinclipart.com/picdir/middle/211-2116571_website-website-logo-png-transparent-background-clipart.png"} alt=""/>
                     <h1>Wixin</h1>
                 </div>
             </Link>
@@ -30,4 +31,3 @@ export const AppHeader = (props) => {
         </header>
     )
 }
-

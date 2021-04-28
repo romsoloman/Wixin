@@ -1,4 +1,16 @@
 .app-header {
+    .logo{
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        align-items: center;
+        .logo-img{
+            width: 30px;
+            height: 30px;
+        }
+        h1{
+            color: #2873b4;
+        }
+    }
     grid-row: 1/1;
     border-bottom: 1px solid grey;
     .nav-items{
