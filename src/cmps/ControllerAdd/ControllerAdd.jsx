@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import './ControllerAdd.scss'
 import { NavbarList } from '../NavbarList/NavbarList';
 const cmpMap = {
-    'navBars': NavbarList,
+    'Navbars': NavbarList,
 }
 
 export const ControllerAdd = (props) => {
@@ -16,24 +16,14 @@ export const ControllerAdd = (props) => {
 
     function getDynamicCmp(tagName, props) {
         var DynamicCmp = cmpMap[tagName]
-        return <DynamicCmp props={props} />
+        return <DynamicCmp props={props} key={props._id} />
     }
     return (
         htmlTags && <section className="controller-add">
             <button className="add-button">Add</button>
             <button className="edit-button">Edit</button>
             {htmlTags.map((tag) =>
-                tag.tagName === 'Navbars' && <NavbarList navbars={tag} key={tag._id} />)}
-            {/* <HeadersController/> */}
-            {/* <SectionsController/> */}
-            {/* <CardsController/> */}
-            {/* <TextsController/> */}
-            {/* <MapsController/> */}
-            {/* <ImagesController/> */}
-            {/* <VideosController/> */}
-            {/* <FormsController/> */}
-            {/* <FootersController/> */}
+                getDynamicCmp(tag.tagName, tag))}
         </section>
     )
 }
-

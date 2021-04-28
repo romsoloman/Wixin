@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { NavbarPreview } from '../NavbarPreview/NavbarPreview'
 import './NavbarList.scss'
 
-export const NavbarList = ({navbars}) => {
+export const NavbarList = (props) => {
     useEffect(() => {
-        console.log('navbars',navbars );
+        console.log('props',props );
         return () => {
         }
     }, [])
