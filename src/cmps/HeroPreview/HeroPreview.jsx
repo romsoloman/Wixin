@@ -2,12 +2,12 @@
 
 import './HeroPreview.scss'
 
-export const HeroPreview = (props) => {
-
+export const HeroPreview = ({ hero }) => {
+    console.log('hero', hero);
     return (
-        <div>
-        
-        </div>
+        hero && <section className="item-controller">
+            <img src={hero.html.backgroundImage} alt="" />
+        </section>
     )
 }
 

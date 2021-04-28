@@ -5,31 +5,14 @@
     "data": [
       {
         "id": "68757586",
-        "imgUrl": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
         "className": "navbar-",
         "style": {
           "color": "red",
           "backgroundColor": "black"
         },
         "html": {
+          "backgroundImage": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
           "logo": "Vita",
-          "a": [
-            "Home",
-            "Contact",
-            "About"
-          ]
-        }
-      },
-      {
-        "id": "89120491",
-        "imgUrl": "https://i.ibb.co/s3ptfYv/chateau.jpg",
-        "className": "navbar-",
-        "style": {
-          "color": "blue",
-          "backgroundColor": "pink"
-        },
-        "html": {
-          "logo": "Shuki",
           "a": [
             "Home",
             "Contact",
@@ -45,16 +28,15 @@
     "data": [
       {
         "id": "5246725627",
-        "imgUrl": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
         "className": "hero-",
         "style": {
           "color": "blue",
           "backgroundColor": "pink"
         },
         "html": {
-          "backgroundImage": "https://i.ibb.co/s3ptfYv/chateau.jpg",
+          "backgroundImage": "imgs/heroes/hero-1.png",
           "h1": "Welcome to my web",
-          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders",
+          "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
           "button": "Get Started"
         }
       }
