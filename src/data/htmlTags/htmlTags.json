@@ -49,15 +49,15 @@
       {
         "id": "t767657657",
         "className": "section-",
-        "backgroundImage": "https://i.ibb.co/DG6934j/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-10.jpg",
+        "backgroundImage": "imgs/sections/section-1.png",
         "style": {
           "color": "blue",
           "backgroundColor": "pink"
         },
         "html": {
-          "img": "https://res.cloudinary.com/dksmeovlj/image/upload/v1606636853/3911917-pdf_1_gfkso7.png",
-          "h1": "Welcome to my web",
-          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
+          "img": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
+          "h1": "Most Beautiful Island in the World",
+          "p": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts."
         }
       }
     ]
@@ -69,15 +69,15 @@
       {
         "id": "83y7982y3",
         "className": "card-",
-        "backgroundImage": "https://i.ibb.co/yQXGnhC/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-17.jpg",
+        "backgroundImage": "imgs/cards/card-1.png",
         "style": {
           "color": "green",
           "backgroundColor": "yellow"
         },
         "html": {
           "img": "https://images.unsplash.com/photo-1584670618308-e88b87710b38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80",
-          "h1": "Welcome to my web",
-          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
+          "h1": "Most Beautiful Island in the World",
+          "p": "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean."
         }
       }
     ]
@@ -89,14 +89,14 @@
       {
         "id": "68757657",
         "className": "text-",
-        "backgroundImage": "https://i.ibb.co/bKj6Lvg/txt002.jpg",
+        "backgroundImage": "imgs/texts/text-1.png",
         "style": {
           "color": "green",
           "backgroundColor": "yellow",
           "fontSize": 18
         },
         "html": {
-          "P": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word. Often, a word in one language will be translated into several words in another language, and vice versa"
+          "p": "Shaped like a giant sombrero, this lush volcanic island stars in countless South Pacific fantasies. The focal point and best asset of this tropical beauty is its ravishing lagoon in technicolor turquoise. Fish, turtles, sharks, and rays swim in the clear waters, and tiny islets or motus dot the lagoon.The island, of course, is distinctly French, with mouthwatering cuisine to match. Diving and snorkeling are excellent in the surrounding reefs, and hiking trails weave through the palm-studded forests.If you can afford it, hide out here in a luxurious over-the-water bungalow and bask in your good fortune as you fall asleep to the gentle slosh of the sea."
         }
       }
     ]
@@ -108,15 +108,15 @@
       {
         "id": "787987",
         "className": "image-",
-        "backgroundImage": "http://res.cloudinary.com/dksmeovlj/image/upload/v1607363044/Untitled-1_copy5_vdjqie.png",
+        "backgroundImage": "imgs/images/image-1.png",
         "style": {
           "backgroundColor": "yellow"
         },
         "html": {
           "image": [
-            "https://images.unsplash.com/photo-1606422135475-eaba95301e6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            "https://images.unsplash.com/photo-1606694582797-0324662ab736?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1326&q=80",
-            "https://images.unsplash.com/photo-1606383042401-a67a07641d50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80"
+            "https://www.planetware.com/photos-large/SEY/best-islands-palawan.jpg",
+            "https://www.planetware.com/photos-large/SEY/best-islands-seychelles.jpg",
+            "https://www.planetware.com/photos-large/SEY/best-islands-santorini.jpg"
           ]
         }
       }
@@ -129,18 +129,23 @@
       {
         "id": "678d68d78",
         "className": "form-",
-        "backgroundImage": "https://i.ibb.co/X2SYCJY/form001.jpg",
+        "backgroundImage": "imgs/forms/form-1.png",
         "style": {
           "backgroundColor": "yellow"
         },
         "html": {
-          "input":[
-            "Your email",
-            "Your fullname",
-            "Your Subject"
+          "lables": [
+            "Name",
+            "Email",
+            "Phone"
           ],
-        "textArea":"your message",
-        "button":"Submit"
+          "input": [
+            "text",
+            "email",
+            "phone"
+          ],
+          "textArea": "your message",
+          "button": "Send"
         }
       }
     ]
@@ -152,16 +157,17 @@
       {
         "id": "bkjewge6767",
         "className": "footer-",
-        "backgroundImage": "https://i.ibb.co/2W3fSc9/footer-basic001.jpg",
+        "backgroundImage": "imgs/footers/footer-1.png",
         "style": {
           "backgroundColor": "white"
         },
         "html": {
-          "h3":"All right reserved to Wixin©",
-          "a":[
+          "h3": "All Rights Are Reserved To Wixin©.",
+          "a": [
             "facebook",
-            "instegram",
-            "twitter"
+            "instagram",
+            "twitter",
+            "github"
           ]
         }
       }

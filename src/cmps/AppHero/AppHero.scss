@@ -1,12 +1,8 @@
 .app-hero {
   background: linear-gradient(to top, white,#17a2b8);
+  height: 75vh;
   .title{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-family: 'Raleway', sans-serif;
     h1{
       color: #000;
