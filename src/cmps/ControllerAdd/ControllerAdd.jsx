@@ -8,6 +8,8 @@ import {SectionList} from '../SectionList/SectionList';
 import {CardList} from '../CardList/CardList';
 import {TextList} from '../TextList/TextList';
 import {ImageList} from '../ImageList/ImageList';
+import {FormList} from '../FormList/FormList';
+import {FooterList} from '../FooterList/FooterList';
 
 const cmpMap = {
     'Navbars': NavbarList,
@@ -15,7 +17,10 @@ const cmpMap = {
     'Sections':SectionList,
     'Cards':CardList,
     'Texts':TextList,
-    'Images':ImageList
+    'Images':ImageList,
+    'Forms':FormList,
+    'Footers':FooterList,
+
 }
 
 export const ControllerAdd = (props) => {

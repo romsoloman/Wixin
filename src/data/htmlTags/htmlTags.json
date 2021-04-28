@@ -121,5 +121,50 @@
         }
       }
     ]
+  },
+  {
+    "_id": "678657567",
+    "tagName": "Forms",
+    "data": [
+      {
+        "id": "678d68d78",
+        "className": "form-",
+        "backgroundImage": "https://i.ibb.co/X2SYCJY/form001.jpg",
+        "style": {
+          "backgroundColor": "yellow"
+        },
+        "html": {
+          "input":[
+            "Your email",
+            "Your fullname",
+            "Your Subject"
+          ],
+        "textArea":"your message",
+        "button":"Submit"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "762872364",
+    "tagName": "Footers",
+    "data": [
+      {
+        "id": "bkjewge6767",
+        "className": "footer-",
+        "backgroundImage": "https://i.ibb.co/2W3fSc9/footer-basic001.jpg",
+        "style": {
+          "backgroundColor": "white"
+        },
+        "html": {
+          "h3":"All right reserved to Wixin©",
+          "a":[
+            "facebook",
+            "instegram",
+            "twitter"
+          ]
+        }
+      }
+    ]
   }
 ]
