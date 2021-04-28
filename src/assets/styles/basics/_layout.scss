@@ -3,6 +3,11 @@
     padding: 0 56px;
 }
 
+.editor-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
 .main-container {
     display: grid;
     grid-template-rows: 100px 1fr 100px;
