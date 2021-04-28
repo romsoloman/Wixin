@@ -6,12 +6,12 @@
       {
         "id": "68757586",
         "className": "navbar-",
+        "backgroundImage": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
         "style": {
           "color": "red",
           "backgroundColor": "black"
         },
         "html": {
-          "backgroundImage": "https://i.ibb.co/yyHX4HL/vita-nav.jpg",
           "logo": "Vita",
           "a": [
             "Home",
@@ -29,12 +29,12 @@
       {
         "id": "5246725627",
         "className": "hero-",
+        "backgroundImage": "imgs/heroes/hero-1.png",
         "style": {
           "color": "blue",
           "backgroundColor": "pink"
         },
         "html": {
-          "backgroundImage": "imgs/heroes/hero-1.png",
           "h1": "Welcome to my web",
           "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
           "button": "Get Started"
@@ -43,77 +43,77 @@
     ]
   },
   {
-    "_id":"567565585",
-    "tagName":"Sections",
-    "data":[
-       {
-        "id":"t767657657",
-        "imgUrl":"https://i.ibb.co/DG6934j/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-10.jpg",
-        "className":"section-",
-        "style":{
-          "color":"blue",
-          "backgroundColor":"pink"
+    "_id": "567565585",
+    "tagName": "Sections",
+    "data": [
+      {
+        "id": "t767657657",
+        "className": "section-",
+        "backgroundImage": "https://i.ibb.co/DG6934j/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-10.jpg",
+        "style": {
+          "color": "blue",
+          "backgroundColor": "pink"
         },
-        "html":{
-          "backgroundImage":"https://res.cloudinary.com/dksmeovlj/image/upload/v1606636853/3911917-pdf_1_gfkso7.png",
-          "h1":"Welcome to my web",
-          "P":"You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
+        "html": {
+          "img": "https://res.cloudinary.com/dksmeovlj/image/upload/v1606636853/3911917-pdf_1_gfkso7.png",
+          "h1": "Welcome to my web",
+          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
         }
       }
     ]
   },
   {
-    "_id":"6875765",
-    "tagName":"Cards",
-    "data":[
-       {
-        "id":"83y7982y3",
-        "imgUrl":"https://i.ibb.co/yQXGnhC/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-17.jpg",
-        "className":"card-",
-        "style":{
-          "color":"green",
-          "backgroundColor":"yellow"
+    "_id": "6875765",
+    "tagName": "Cards",
+    "data": [
+      {
+        "id": "83y7982y3",
+        "className": "card-",
+        "backgroundImage": "https://i.ibb.co/yQXGnhC/screencapture-localhost-8080-editor-2020-11-30-20-39-28-1-17.jpg",
+        "style": {
+          "color": "green",
+          "backgroundColor": "yellow"
         },
-        "html":{
-          "backgroundImage":"https://images.unsplash.com/photo-1584670618308-e88b87710b38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80",
-          "h1":"Welcome to my web",
-          "P":"You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
+        "html": {
+          "img": "https://images.unsplash.com/photo-1584670618308-e88b87710b38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80",
+          "h1": "Welcome to my web",
+          "P": "You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders"
         }
       }
     ]
   },
   {
-    "_id":"8746282468",
-    "tagName":"Texts",
-    "data":[
-       {
-        "id":"68757657",
-        "imgUrl":"https://i.ibb.co/bKj6Lvg/txt002.jpg",
-        "className":"text-",
-        "style":{
-          "color":"green",
-          "backgroundColor":"yellow",
-          "fontSize":18
+    "_id": "8746282468",
+    "tagName": "Texts",
+    "data": [
+      {
+        "id": "68757657",
+        "className": "text-",
+        "backgroundImage": "https://i.ibb.co/bKj6Lvg/txt002.jpg",
+        "style": {
+          "color": "green",
+          "backgroundColor": "yellow",
+          "fontSize": 18
         },
-        "html":{
-          "P":"The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word. Often, a word in one language will be translated into several words in another language, and vice versa"
+        "html": {
+          "P": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word. Often, a word in one language will be translated into several words in another language, and vice versa"
         }
       }
     ]
   },
   {
-    "_id":"64287236487",
-    "tagName":"Images",
-    "data":[
-       {
-        "id":"787987",
-        "imgUrl":"http://res.cloudinary.com/dksmeovlj/image/upload/v1607363044/Untitled-1_copy5_vdjqie.png",
-        "className":"image-",
-        "style":{
-          "backgroundColor":"yellow"
+    "_id": "64287236487",
+    "tagName": "Images",
+    "data": [
+      {
+        "id": "787987",
+        "className": "image-",
+        "backgroundImage": "http://res.cloudinary.com/dksmeovlj/image/upload/v1607363044/Untitled-1_copy5_vdjqie.png",
+        "style": {
+          "backgroundColor": "yellow"
         },
-        "html":{
-          "image":[
+        "html": {
+          "image": [
             "https://images.unsplash.com/photo-1606422135475-eaba95301e6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
             "https://images.unsplash.com/photo-1606694582797-0324662ab736?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1326&q=80",
             "https://images.unsplash.com/photo-1606383042401-a67a07641d50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80"
