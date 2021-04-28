@@ -3,8 +3,10 @@ import { loadHtmlTags } from '../../store/actions/htmlTagsAction';
 import { useDispatch, useSelector } from 'react-redux';
 import './ControllerAdd.scss'
 import { NavbarList } from '../NavbarList/NavbarList';
+import { HeroList } from '../HeroList/HeroList';
 const cmpMap = {
     'Navbars': NavbarList,
+    'Heroes': HeroList,
 }
 
 export const ControllerAdd = (props) => {
@@ -22,8 +24,10 @@ export const ControllerAdd = (props) => {
         htmlTags && <section className="controller-add">
             <button className="add-button">Add</button>
             <button className="edit-button">Edit</button>
-            {htmlTags.map((tag) =>
-                getDynamicCmp(tag.tagName, tag))}
+            {htmlTags.map((tag) => {
+                console.log('tag', tag);
+                getDynamicCmp(tag.tagName, tag)
+            })}
         </section>
     )
 }
