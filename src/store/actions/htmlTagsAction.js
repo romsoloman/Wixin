@@ -4,6 +4,7 @@ import { htmlTagsService } from '../../services/htmlTags.service.js';
 export function loadHtmlTags() {
   return async dispatch => {
     const htmlTags = await htmlTagsService.query()
+    console.log('htmlTags', htmlTags);
     const action = {
       type: 'SET_HTML_TAGS',
       htmlTags

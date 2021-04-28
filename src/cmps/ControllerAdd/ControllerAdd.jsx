@@ -1,21 +1,29 @@
 import React, { useEffect } from 'react';
-import { loadHtmlTags } from '../../store/actions/htmlTagsActions';
+import { loadHtmlTags } from '../../store/actions/htmlTagsAction';
 import { useDispatch, useSelector } from 'react-redux';
 import './ControllerAdd.scss'
+import {NavbarList} from '../NavbarList/NavbarList';
+const cmpMap = {
+    'navBars': NavbarList,
+}
 
 export const ControllerAdd = (props) => {
     const htmlTags = useSelector(state => state.htmlTagsReducer.htmlTags)
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(loadHtmlTags())
-        console.log('htmlTags',htmlTags );
     }, [])
 
+    function getDynamicCmp(tagName, props){
+        var DynamicCmp = cmpMap[tagName]
+       return  <DynamicCmp props={props}/>
+    }
     return (
-        <section className="controller-add">
+        htmlTags && <section className="controller-add">
             <button className="add-button">Add</button>
             <button className="add-button">Edit</button>
-            {/* <NavbarsController/> */}
+            {htmlTags.map((tag) =>
+            tag.tagName === 'Navbars' && <NavbarList navbars={tag} key={tag._id}/>)}
             {/* <HeadersController/> */}
             {/* <SectionsController/> */}
             {/* <CardsController/> */}
@@ -28,3 +36,5 @@ export const ControllerAdd = (props) => {
         </section>
     )
 }
+
+dynamicCmp[tagName]
