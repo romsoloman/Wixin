@@ -3,44 +3,57 @@
         "_id": "81019sjdla91j92192",
         "name": "Vita",
         "addOns": {
-            "header": {},
-            "main": {},
-            "footer": {}
+            "header": {
+                "navbar": {
+                    "logo": "Vita",
+                    "a": [
+                        "Home",
+                        "Contact",
+                        "About"
+                    ]
+                },
+                "hero": {
+                    "h1": "Welcome to my web",
+                    "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                    "button": "Get Started"
+                }
+            },
+            "main": {
+                "sections": [
+                    {
+                        "img": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
+                        "h1": "Most Beautiful Island in the World",
+                        "p": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts."
+                    }
+                ],
+                "forms": [
+                    {
+                        "lables": [
+                            "Name",
+                            "Email",
+                            "Phone"
+                        ],
+                        "input": [
+                            "text",
+                            "email",
+                            "phone"
+                        ],
+                        "textArea": "your message",
+                        "button": "Send"
+                    }
+                ]
+            },
+            "footer": {
+                "h3": "All Rights Are Reserved To Wixin©.",
+                "a": [
+                    "facebook",
+                    "instagram",
+                    "twitter",
+                    "github"
+                ]
+            }
         },
-        "backgroundImg": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85",
-        "style": ""
-    },
-    {
-        "_id": "85719sjdla91j92192",
-        "name": "White Sands Hotel",
-        "addOns": {
-            "header": {},
-            "main": {},
-            "footer": {}
-        },
-        "backgroundImg": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85",
-        "style": ""
-    },
-    {
-        "_id": "8119sjdla91j92192",
-        "name": "Basic",
-        "addOns": {
-            "header": {},
-            "main": {},
-            "footer": {}
-        },
-        "backgroundImg": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85",
-        "style": ""
-    },
-    {
-        "_id": "819sjdla91j92192",
-        "name": "Startus",
-        "addOns": {
-            "header": {},
-            "main": {},
-            "footer": {}
-        },
-        "backgroundImg": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxODcwMDl8MHwxfHNlYXJjaHwyfHx8ZW58MHx8fA&ixlib=rb-1.2.1&q=85",
+        "backgroundImg": "imgs/heroes/hero-1.png",
         "style": ""
     }
 ]
