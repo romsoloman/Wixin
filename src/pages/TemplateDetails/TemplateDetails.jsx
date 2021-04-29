@@ -11,12 +11,12 @@ export const TemplateDetails = (props) => {
         dispatch(getTemplateById(props.match.params.id));
     }, [])
     return (
-        currTemplate && <section className='editor-container details-page'>
-            <header>
-                <nav>
+        currTemplate && <section className="template-container details-page">
+            <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>
+                <nav className="flex justify-between align-center nav-items">
                     <h1>{currTemplate.addOns.header.navbar.logo}</h1>
-                    <div>
-                        {currTemplate.addOns.header.navbar.a.map(item => <a href="#">{item}</a>)}
+                    <div className="flex justify-between">
+                        {currTemplate.addOns.header.navbar.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
                     </div>
                 </nav>
                 <section>
@@ -26,9 +26,9 @@ export const TemplateDetails = (props) => {
                 </section>
             </header>
             <main>
-                {currTemplate.addOns.main.sections.map(section => {
+                {currTemplate.addOns.main.sections.map((section, idx) => {
                     return (
-                        <div>
+                        <div className="flex column" key={idx}>
                             <img src={section.img} alt="" />
                             <h1>{section.h1}</h1>
                             <p>{section.p}</p>
@@ -50,7 +50,7 @@ export const TemplateDetails = (props) => {
             </main>
             <footer>
                 <h3>{currTemplate.addOns.footer.h3}</h3>
-                {currTemplate.addOns.footer.a.map(item => <a href='#'>{item}</a>)}
+                {currTemplate.addOns.footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
             </footer>
         </section>
     )
