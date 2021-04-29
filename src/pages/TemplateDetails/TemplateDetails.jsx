@@ -35,6 +35,18 @@ export const TemplateDetails = (props) => {
                         </div>
                     )
                 })}
+                {currTemplate.addOns.main.forms.map(form => {
+                    return(
+                        <form>
+                            <label name={form.lables[0]}>{form.lables[0]}</label>
+                            <input name={form.lables[0]} type="text"/>
+                            <label name={form.lables[1]}>{form.lables[1]}</label>
+                            <input name={form.lables[1]} type="text"/>
+                            <label name={form.lables[2]}>{form.lables[2]}</label>
+                            <input name={form.lables[2]} type="text"/>
+                        </form>
+                    )
+                })}
             </main>
             <footer>
                 <h3>{currTemplate.addOns.footer.h3}</h3>
@@ -43,4 +55,3 @@ export const TemplateDetails = (props) => {
         </section>
     )
 }
-
