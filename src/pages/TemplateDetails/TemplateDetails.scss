@@ -1,1 +1,11 @@
-.templateDetails {}
+.details-page {
+    header{
+        grid-row: 1/1;
+    }
+    main{
+        grid-row: 2/2;
+    }
+    footer{
+        grid-row: 3/3;
+    }
+}

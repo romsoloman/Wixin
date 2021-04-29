@@ -7,6 +7,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+.template-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 100px;
+}
 
 .main-container {
     display: grid;
