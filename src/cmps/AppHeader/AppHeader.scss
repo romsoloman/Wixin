@@ -8,13 +8,16 @@
             height: 30px;
         }
         h1{
-            color: #2873b4;
+            color: #0a66c2c4;
+            
         }
     }
     grid-row: 1/1;
     .nav-items{
         >*{
+            text-transform: capitalize;
             margin-inline-end: 15px;
+            font-size: 16px;
         }
     }
 }

@@ -1,1 +1,9 @@
-.templateApp {}
+.template-app {
+    text-align: center;
+    .template-app-header{
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        margin: 4rem 0 2rem; 
+    }
+}

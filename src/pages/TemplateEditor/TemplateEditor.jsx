@@ -7,7 +7,7 @@ import './TemplateEditor.scss'
 export const TemplateEditor = (props) => {
 
     return (
-        <section className="editor-container templete-editor">
+        <section className="container editor-container templete-editor">
             <ControllerAdd />
         </section>
     )
