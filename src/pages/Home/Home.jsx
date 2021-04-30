@@ -15,7 +15,7 @@ export const Home = (props) => {
                         <p className="pa">Use our simplified content-editor in order to create your amazing site. Drag & Drop items to the center of the page to add them-in, click on the pretty bin icon to remove. Use the text deisgn option to make every sentence stand out.</p>
                         <button className="btn-pointer">Start Creating »</button>
                     </div>
-                    <img src="https://res.cloudinary.com/dksmeovlj/image/upload/v1607257356/homepage1_ojzkm6.png" alt=""/>
+                    <img src="https://res.cloudinary.com/dksmeovlj/image/upload/v1607257356/homepage1_ojzkm6.png" alt="" />
                 </div>
             </main>
         </section>
