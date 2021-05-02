@@ -148,5 +148,156 @@
             ]
         },
         "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+     {
+        "_id": "74893y3b53j",
+        "name": "Football",
+        "addOns": {
+            "header": {
+                "navbar": [
+                    {
+                        "logo": "Football",
+                        "a": [
+                            {
+                                "txt": "Home",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "Teams",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "About",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "hero": [
+                    {
+                        "h1": [
+                            {
+                                "txt": "Welcome to my Football web",
+                                "style": {
+                                    "fontSize": "80px",
+                                    "color":"green",
+                                    "textAlign":"center"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                                "style": {
+                                    "color": "green"
+                                }
+                            }
+                        ],
+                        "button": [
+                            {
+                                "txt": "Create your team",
+                                "style": {
+                                    "borderRadius": "30px"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "main": {
+                "sections": [
+                    {
+                        "img": [
+                            {
+                                "url": "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+                                "style": {
+                                    "width": "100px"
+                                }
+                            }
+                        ],
+                        "h1": [
+                            {
+                                "txt": "Create your dream team",
+                                "style": {
+                                    "fontSize": "30px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
+                                "style": {
+                                    "fontSize": "15px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "forms": [
+                    {
+                        "label": {
+                            "types": [
+                                "Player name",
+                                "Number",
+                                "Rating"
+                            ],
+                            "style": {}
+                        },
+                        "input": {
+                            "types": [
+                                "Player name",
+                                "Number",
+                                "Rating"
+                            ],
+                            "style": {}
+                        },
+                        "button": {
+                            "txt": "Create",
+                            "style": {}
+                        },
+                        "style": {}
+                    }
+                ]
+            },
+            "footer": [
+                {
+                    "h3": [
+                        {
+                            "txt": "All Rights Are Reserved To Wixin©.",
+                            "style": {}
+                        }
+                    ],
+                    "a": [
+                        {
+                            "txt": "facebook",
+                            "style": {}
+                        },
+                        {
+                            "txt": "instagram",
+                            "style": {}
+                        },
+                        {
+                            "txt": "twitter",
+                            "style": {}
+                        },
+                        {
+                            "txt": "github",
+                            "style": {}
+                        }
+                    ],
+                    "style": {}
+                }
+            ]
+        },
+        "backgroundImg": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     }
 ]
