@@ -38,15 +38,19 @@
                             {
                                 "txt": "Welcome to my web",
                                 "style": {
-                                    "fontSize": "100px"
+                                    "fontSize": "65px",
+                                    "marginTop": "12rem",
+                                    "color": "white",
+                                    "textTransform": "capitalize"
                                 }
                             }
                         ],
                         "p": [
                             {
-                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word.",
                                 "style": {
-                                    "color": "red"
+                                    "maxWidth": "700px",
+                                    "color": "white"
                                 }
                             }
                         ],
@@ -54,7 +58,9 @@
                             {
                                 "txt": "Get Started",
                                 "style": {
-                                    "borderRadius": "20px"
+                                    "borderRadius": "10px",
+                                    "height": "40px",
+                                    "width": "150px"
                                 }
                             }
                         ]
@@ -68,7 +74,7 @@
                             {
                                 "url": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
                                 "style": {
-                                    "width": "50px"
+                                    "flex": "1"
                                 }
                             }
                         ],
@@ -128,15 +134,21 @@
                     "a": [
                         {
                             "txt": "facebook",
-                            "style": {}
+                            "style": {
+                                "marginRight": "15px"
+                            }
                         },
                         {
                             "txt": "instagram",
-                            "style": {}
+                            "style": {
+                                "marginRight": "15px"
+                            }
                         },
                         {
                             "txt": "twitter",
-                            "style": {}
+                            "style": {
+                                "marginRight": "15px"
+                            }
                         },
                         {
                             "txt": "github",
