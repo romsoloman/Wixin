@@ -8,63 +8,135 @@
                     {
                         "logo": "Vita",
                         "a": [
-                            "Home",
-                            "Contact",
-                            "About"
+                            {
+                                "txt": "Home",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "Contact",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "About",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "10px"
+                                }
+                            }
                         ]
                     }
                 ],
                 "hero": [
                     {
-                        "h1": "Welcome to my web",
-                        "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
-                        "button": "Get Started"
+                        "h1": [
+                            {
+                                "txt": "Welcome to my web",
+                                "style": {
+                                    "fontSize": "100px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                                "style": {
+                                    "color": "red"
+                                }
+                            }
+                        ],
+                        "button": [
+                            {
+                                "txt": "Get Started",
+                                "style": {
+                                    "borderRadius": "20px"
+                                }
+                            }
+                        ]
                     }
                 ]
             },
             "main": {
                 "sections": [
                     {
-                        "img": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
-                        "h1": "Most Beautiful Island in the World",
-                        "p": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts."
+                        "img": {
+                            "url": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
+                            "style": {
+                                "width": "50px"
+                            }
+                        },
+                        "h1": [
+                            {
+                                "txt": "Most Beautiful Island in the World",
+                                "style": {
+                                    "fontSize": "20px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
+                                "style": {
+                                    "fontSize": "15px"
+                                }
+                            }
+                        ]
                     }
                 ],
                 "forms": [
                     {
-                        "lables": [
-                            "name",
-                            "email",
-                            "phone"
-                        ],
-                        "input": [
-                            "text",
-                            "email",
-                            "phone"
-                        ],
+                        "lables": {
+                            "types": [
+                                "text",
+                                "email",
+                                "phone"
+                            ],
+                            "style": {}
+                        },
+                        "input": {
+                            "types": [
+                                "text",
+                                "email",
+                                "phone"
+                            ],
+                            "style": {}
+                        },
                         "textArea": "your message",
-                        "button": "Send"
+                        "button": {
+                            "txt": "Send",
+                            "style": {}
+                        }
                     }
                 ]
             },
             "footer": [
                 {
-                    "h3": "All Rights Are Reserved To Wixin©.",
+                    "h3": [
+                        {
+                            "txt": "All Rights Are Reserved To Wixin©.",
+                            "style": {}
+                        }
+                    ],
                     "a": [
-                        "facebook",
-                        "instagram",
-                        "twitter",
-                        "github"
-                    ]
+                        {
+                            "txt": [
+                                "facebook",
+                                "instagram",
+                                "twitter",
+                                "github"
+                            ],
+                            "style": {}
+                        }
+                    ],
+                    "style": {}
                 }
             ]
         },
-        "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-        "style": [
-            "flex",
-            "justify-center",
-            "align-center",
-            "column"
-        ]
+        "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     }
 ]

@@ -16,9 +16,9 @@ export const TemplateDetails = (props) => {
                 {currTemplate.addOns.header.navbar.map((nav, idx) => {
                     return (
                         <nav className="flex justify-between align-center nav-items" key={idx}>
-                            <h1>{nav.logo}</h1>
+                            <h1 className="nav-logo">{nav.logo}</h1>
                             <div className="flex justify-between">
-                                {nav.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                                {nav.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
                             </div>
                         </nav>
                     )
@@ -60,10 +60,12 @@ export const TemplateDetails = (props) => {
             </main>
             <footer>
                 {currTemplate.addOns.footer.map((footer, idx) => {
-                    <section className="main-footer" key={idx}>
-                        <h3>{footer.h3}</h3>
-                        {footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
-                    </section>
+                    return (
+                        <section className="main-footer" key={idx}>
+                            <h3>{footer.h3}</h3>
+                            {footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                        </section>
+                    )
                 })}
             </footer>
         </section>

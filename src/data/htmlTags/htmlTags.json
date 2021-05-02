@@ -7,10 +7,6 @@
         "id": "68757586",
         "className": "navbar-",
         "backgroundImage": "imgs/navbars/navbar-1.png",
-        "style": {
-          "color": "red",
-          "backgroundColor": "black"
-        },
         "html": {
           "logo": "Vita",
           "a": [
