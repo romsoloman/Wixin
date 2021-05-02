@@ -64,12 +64,14 @@
             "main": {
                 "sections": [
                     {
-                        "img": {
-                            "url": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
-                            "style": {
-                                "width": "50px"
+                        "img": [
+                            {
+                                "url": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
+                                "style": {
+                                    "width": "50px"
+                                }
                             }
-                        },
+                        ],
                         "h1": [
                             {
                                 "txt": "Most Beautiful Island in the World",
@@ -90,7 +92,7 @@
                 ],
                 "forms": [
                     {
-                        "lables": {
+                        "label": {
                             "types": [
                                 "text",
                                 "email",
@@ -110,7 +112,8 @@
                         "button": {
                             "txt": "Send",
                             "style": {}
-                        }
+                        },
+                        "style": {}
                     }
                 ]
             },
@@ -124,12 +127,19 @@
                     ],
                     "a": [
                         {
-                            "txt": [
-                                "facebook",
-                                "instagram",
-                                "twitter",
-                                "github"
-                            ],
+                            "txt": "facebook",
+                            "style": {}
+                        },
+                        {
+                            "txt": "instagram",
+                            "style": {}
+                        },
+                        {
+                            "txt": "twitter",
+                            "style": {}
+                        },
+                        {
+                            "txt": "github",
                             "style": {}
                         }
                     ],

@@ -26,9 +26,9 @@ export const TemplateDetails = (props) => {
                 {currTemplate.addOns.header.hero.map((hero, idx) => {
                     return (
                         <section className="hero" key={idx}>
-                            <h1 className="hero-title">{hero.h1}</h1>
-                            <p className="hero-subtitle">{hero.p}</p>
-                            <button className="hero-action-btn">{hero.button}</button>
+                            {hero.h1.map((h1, idx) => <h1 style={h1.style} key={idx}>{h1.txt}</h1>)}
+                            {hero.p.map((p, idx) => <p style={p.style} key={idx}>{p.txt}</p>)}
+                            {hero.button.map((button, idx) => <button style={button.style} key={idx}>{button.txt}</button>)}
                         </section>
                     )
                 })}
@@ -37,33 +37,31 @@ export const TemplateDetails = (props) => {
                 {currTemplate.addOns.main.sections.map((section, idx) => {
                     return (
                         <div className="flex column" key={idx}>
-                            <img src={section.img} alt="" />
-                            <h1>{section.h1}</h1>
-                            <p>{section.p}</p>
+                            {section.img.map((img, idx) => <img src={img.url} style={img.style} key={idx} />)}
+                            {section.h1.map((h1, idx) => <h1 key={idx} style={h1.style}>{h1.txt}</h1>)}
+                            {section.p.map((p, idx) => <p style={p.style} key={idx}>{p.txt}</p>)}
                         </div>
                     )
                 })}
-                {currTemplate.addOns.main.forms.map((form, idx) => {
+                {/* {currTemplate.addOns.main.forms.map((form, idx) => {
                     return (
-                        <form key={idx}>
-                            {form.lables.map((label, idx) => {
-                                return (
-                                    <div className={label} key={idx}>
-                                        <label name={label}>{label}</label>
-                                        <input name={label} type={label} />
-                                    </div>
-                                )
+                        <form key={idx} style={form.style}>
+                            {form.label.types.map((type, idx) => {
+                                <div className={type} key={idx}>
+                                    <label htmlFor={type} style={form.label.style}>{type}</label>
+                                    <input type={type} name={type} style={form.input.style} />
+                                </div>
                             })}
                         </form>
                     )
-                })}
+                })} */}
             </main>
             <footer>
                 {currTemplate.addOns.footer.map((footer, idx) => {
                     return (
-                        <section className="main-footer" key={idx}>
-                            <h3>{footer.h3}</h3>
-                            {footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                        <section className="main-footer" key={idx} style={footer.style}>
+                            {footer.h3.map((h3, idx) => <h3 key={idx} style={h3.style}>{h3.txt}</h3>)}
+                            {footer.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
                         </section>
                     )
                 })}
