@@ -39,12 +39,16 @@ p {
 a {
     text-decoration: none;
     color:$clr3;
+    cursor: pointer;
 }
 a:hover {
     text-decoration: none;
 }
 input:focus{
     outline: none;
+}
+button{
+    cursor: pointer;
 }
 button:focus{
     outline: none;

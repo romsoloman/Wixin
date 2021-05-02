@@ -13,7 +13,7 @@ import { TemplateEditor } from "./pages/TemplateEditor/TemplateEditor";
 
 function App() {
   return (
-    <div className="main-container app">
+    <div className="app">
       <Router>
         <AppHeader />
         <div>

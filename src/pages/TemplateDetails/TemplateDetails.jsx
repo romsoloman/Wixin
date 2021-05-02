@@ -33,13 +33,15 @@ export const TemplateDetails = (props) => {
                     )
                 })}
             </header>
-            <main>
+            <main className="main-container">
                 {currTemplate.addOns.main.sections.map((section, idx) => {
                     return (
-                        <div className="flex column" key={idx}>
+                        <div className="container flex section-details" key={idx}>
+                            <div>
+                                {section.h1.map((h1, idx) => <h1 key={idx} style={h1.style}>{h1.txt}</h1>)}
+                                {section.p.map((p, idx) => <p style={p.style} key={idx}>{p.txt}</p>)}
+                            </div>
                             {section.img.map((img, idx) => <img src={img.url} style={img.style} key={idx} />)}
-                            {section.h1.map((h1, idx) => <h1 key={idx} style={h1.style}>{h1.txt}</h1>)}
-                            {section.p.map((p, idx) => <p style={p.style} key={idx}>{p.txt}</p>)}
                         </div>
                     )
                 })}
@@ -59,9 +61,11 @@ export const TemplateDetails = (props) => {
             <footer>
                 {currTemplate.addOns.footer.map((footer, idx) => {
                     return (
-                        <section className="main-footer" key={idx} style={footer.style}>
+                        <section className="container main-footer flex justify-between align-center" key={idx} style={footer.style}>
                             {footer.h3.map((h3, idx) => <h3 key={idx} style={h3.style}>{h3.txt}</h3>)}
-                            {footer.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
+                            <div className="flex align-center icons">
+                                {footer.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
+                            </div>
                         </section>
                     )
                 })}
