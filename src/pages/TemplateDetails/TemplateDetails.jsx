@@ -13,17 +13,25 @@ export const TemplateDetails = (props) => {
     return (
         currTemplate && <section className="template-container details-page">
             <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>
-                <nav className="flex justify-between align-center nav-items">
-                    <h1>{currTemplate.addOns.header.navbar.logo}</h1>
-                    <div className="flex justify-between">
-                        {currTemplate.addOns.header.navbar.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
-                    </div>
-                </nav>
-                <section>
-                    <h1>{currTemplate.addOns.header.hero.h1}</h1>
-                    <p>{currTemplate.addOns.header.hero.p}</p>
-                    <button>{currTemplate.addOns.header.hero.button}</button>
-                </section>
+                {currTemplate.addOns.header.navbar.map((nav, idx) => {
+                    return (
+                        <nav className="flex justify-between align-center nav-items" key={idx}>
+                            <h1>{nav.logo}</h1>
+                            <div className="flex justify-between">
+                                {nav.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                            </div>
+                        </nav>
+                    )
+                })}
+                {currTemplate.addOns.header.hero.map((hero, idx) => {
+                    return (
+                        <section className="hero" key={idx}>
+                            <h1 className="hero-title">{hero.h1}</h1>
+                            <p className="hero-subtitle">{hero.p}</p>
+                            <button className="hero-action-btn">{hero.button}</button>
+                        </section>
+                    )
+                })}
             </header>
             <main>
                 {currTemplate.addOns.main.sections.map((section, idx) => {
@@ -35,22 +43,28 @@ export const TemplateDetails = (props) => {
                         </div>
                     )
                 })}
-                {currTemplate.addOns.main.forms.map(form => {
+                {currTemplate.addOns.main.forms.map((form, idx) => {
                     return (
-                        <form>
-                            <label name={form.lables[0]}>{form.lables[0]}</label>
-                            <input name={form.lables[0]} type="text" />
-                            <label name={form.lables[1]}>{form.lables[1]}</label>
-                            <input name={form.lables[1]} type="text" />
-                            <label name={form.lables[2]}>{form.lables[2]}</label>
-                            <input name={form.lables[2]} type="text" />
+                        <form key={idx}>
+                            {form.lables.map((label, idx) => {
+                                return (
+                                    <div className={label} key={idx}>
+                                        <label name={label}>{label}</label>
+                                        <input name={label} type={label} />
+                                    </div>
+                                )
+                            })}
                         </form>
                     )
                 })}
             </main>
             <footer>
-                <h3>{currTemplate.addOns.footer.h3}</h3>
-                {currTemplate.addOns.footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                {currTemplate.addOns.footer.map((footer, idx) => {
+                    <section className="main-footer" key={idx}>
+                        <h3>{footer.h3}</h3>
+                        {footer.a.map((item, idx) => <a href="#" key={idx}>{item}</a>)}
+                    </section>
+                })}
             </footer>
         </section>
     )

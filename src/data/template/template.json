@@ -4,19 +4,23 @@
         "name": "Vita",
         "addOns": {
             "header": {
-                "navbar": {
-                    "logo": "Vita",
-                    "a": [
-                        "Home",
-                        "Contact",
-                        "About"
-                    ]
-                },
-                "hero": {
-                    "h1": "Welcome to my web",
-                    "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
-                    "button": "Get Started"
-                }
+                "navbar": [
+                    {
+                        "logo": "Vita",
+                        "a": [
+                            "Home",
+                            "Contact",
+                            "About"
+                        ]
+                    }
+                ],
+                "hero": [
+                    {
+                        "h1": "Welcome to my web",
+                        "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                        "button": "Get Started"
+                    }
+                ]
             },
             "main": {
                 "sections": [
@@ -29,9 +33,9 @@
                 "forms": [
                     {
                         "lables": [
-                            "Name",
-                            "Email",
-                            "Phone"
+                            "name",
+                            "email",
+                            "phone"
                         ],
                         "input": [
                             "text",
@@ -43,15 +47,17 @@
                     }
                 ]
             },
-            "footer": {
-                "h3": "All Rights Are Reserved To Wixin©.",
-                "a": [
-                    "facebook",
-                    "instagram",
-                    "twitter",
-                    "github"
-                ]
-            }
+            "footer": [
+                {
+                    "h3": "All Rights Are Reserved To Wixin©.",
+                    "a": [
+                        "facebook",
+                        "instagram",
+                        "twitter",
+                        "github"
+                    ]
+                }
+            ]
         },
         "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "style": [
