@@ -202,7 +202,7 @@
                                 "style": {
                                     "fontSize": "80px",
                                     "color":"green",
-                                    "textAlign":"center"
+                                    "maxWidth":"600px"
                                 }
                             }
                         ],
@@ -210,7 +210,8 @@
                             {
                                 "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
                                 "style": {
-                                    "color": "green"
+                                    "color": "green",
+                                    "max-width":"600px"
                                 }
                             }
                         ],
@@ -218,7 +219,8 @@
                             {
                                 "txt": "Create your team",
                                 "style": {
-                                    "borderRadius": "30px"
+                                    "borderRadius": "30px",
+                                    "height":"40px"
                                 }
                             }
                         ]
@@ -232,7 +234,8 @@
                             {
                                 "url": "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
                                 "style": {
-                                    "width": "100px"
+                                    "width": "100px",
+                                    "flex":"1"
                                 }
                             }
                         ],
