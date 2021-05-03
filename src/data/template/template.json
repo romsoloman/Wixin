@@ -163,12 +163,12 @@
     },
     {
         "_id": "74893y3b53j",
-        "name": "Football",
+        "name": "SPORT WOW",
         "addOns": {
             "header": {
                 "navbar": [
                     {
-                        "logo": "Football",
+                        "logo": "SPORT WOW",
                         "a": [
                             {
                                 "txt": "Home",
