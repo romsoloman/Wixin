@@ -25,7 +25,7 @@ export const TemplateDetails = (props) => {
                 })}
                 {currTemplate.addOns.header.hero.map((hero, idx) => {
                     return (
-                        <section className="hero" key={idx}>
+                        <section className="hero" style={hero.style} key={idx}>
                             {hero.h1.map((h1, idx) => <h1 style={h1.style} key={idx}>{h1.txt}</h1>)}
                             {hero.p.map((p, idx) => <p style={p.style} key={idx}>{p.txt}</p>)}
                             {hero.button.map((button, idx) => <button style={button.style} key={idx}>{button.txt}</button>)}
