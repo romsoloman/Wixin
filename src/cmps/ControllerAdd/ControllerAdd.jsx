@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { loadHtmlTags } from '../../store/actions/htmlTagsAction';
 import { useDispatch, useSelector } from 'react-redux';
 import './ControllerAdd.scss'
@@ -10,6 +10,7 @@ import { TextList } from '../TextList/TextList';
 import { ImageList } from '../ImageList/ImageList';
 import { FormList } from '../FormList/FormList';
 import { FooterList } from '../FooterList/FooterList';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 const cmpMap = {
     'Navbars': NavbarList,
@@ -24,22 +25,54 @@ const cmpMap = {
 }
 
 export const ControllerAdd = (props) => {
+    const [arr2, updateArr2] = useState(arr);
     const htmlTags = useSelector(state => state.htmlTagsReducer.htmlTags)
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(loadHtmlTags())
     }, [])
 
-    function getDynamicCmp(tagName, props) {
+    function getDynamicCmp(tagName, props, getCmp) {
         var DynamicCmp = cmpMap[tagName]
-        return <DynamicCmp props={props} key={props._id} />
+        return <DynamicCmp props={props} key={props._id} getCmp={getCmp} />
     }
+    function handleOnDragEnd(result) {
+        if (!result.destination) return;
+        console.log(result)
+        const items = Array.from(arr2);
+        const [reorderedItem] = items.splice(result.source.index, 1);
+        items.splice(result.destination.index, 0, reorderedItem);
+        updateArr2(items);
+    }
+
     return (
         htmlTags && <section className="controller-add">
             <button className="add-button">Add</button>
             <button className="add-button">Edit</button>
-            {htmlTags.map((tag) =>
-                getDynamicCmp(tag.tagName, tag))}
+            <div className="tags-list">
+                {htmlTags.map((tag) => getDynamicCmp(tag.tagName, tag, props.getCmp))}
+            </div>
+            {/* <DragDropContext>
+                <Droppable droppableId="numbers">
+                    {(provided) => (
+                        <ul className="nubmers" {...provided.droppableProps} ref={provided.innerRef}>
+                            {htmlTags.map((tag, idx) => {
+                                return (
+                                    <Draggable key={idx} draggableId={`${idx}`} index={idx}>
+                                        {(provided) => (
+                                            <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
+                                                {getDynamicCmp(tag.tagName, tag)}
+                                            </li>
+                                        )}
+                                    </Draggable>
+                                )
+                            })}
+                        </ul>
+                    )}
+                </Droppable>
+            </DragDropContext> */}
         </section>
     )
 }
+
+var arr = [1, 2, 3, 4, 5, 6]
