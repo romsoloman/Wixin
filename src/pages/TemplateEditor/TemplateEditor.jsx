@@ -3,14 +3,14 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ControllerAdd } from '../../cmps/ControllerAdd/ControllerAdd'
-import { loadTemplates,getTemplateById, saveTemplate } from '../../store/actions/templateActions'
+import { loadTemplates, getTemplateById, saveTemplate } from '../../store/actions/templateActions'
 import { TemplateDetails } from '../TemplateDetails/TemplateDetails'
 import './TemplateEditor.scss'
 
 export const TemplateEditor = (props) => {
     const [isEditor, updateIsEditor] = useState(false);
     const templates = useSelector(state => state.templateReducer.templates)
-    const currTemplate = useSelector(state=>state.templateReducer.currTemplate)
+    const currTemplate = useSelector(state => state.templateReducer.currTemplate)
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(loadTemplates())
@@ -21,12 +21,14 @@ export const TemplateEditor = (props) => {
 
     const getCmp = (templateId, item) => {
         dispatch(getTemplateById(templateId))
-        currTemplate.addOns.header = {...item};
+        currTemplate.addOns.header.navbar = [{ ...item.html }];
+        console.log('currTemplate.addOns.header.navbar', currTemplate.addOns.header.navbar);
         dispatch(saveTemplate(currTemplate));
+        dispatch(loadTemplates())
     }
     return (
         <section className="container editor-container templete-editor">
-            <ControllerAdd getCmp={getCmp} templateId={props.match.params.id}/>
+            <ControllerAdd getCmp={getCmp} templateId={props.match.params.id} />
             {isEditor && <TemplateDetails {...props} />}
             {!isEditor &&
                 (<section className="workspace">

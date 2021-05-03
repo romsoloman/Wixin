@@ -34,8 +34,12 @@ function query() {
     //     .get(TOY_URL, { params: gFilterBy })
     //     .then(({ data }) => data)
     //     .catch((err) => err);
-    localStorage.setItem('templates', JSON.stringify(templateData));
-    return storageService.query('templates')
+    if (localStorage.getItem('templates')) {
+        return storageService.query('templates')
+    } else {
+        const templates = localStorage.setItem('templates', JSON.stringify(templateData));
+        return Promise.resolve(templates)
+    }
 }
 
 function getById(id) {
@@ -59,7 +63,6 @@ function remove(id) {
 
 function save(template) {
     const updateTemplate = template._id ? storageService.put('templates', template) : storageService.post('templates', template)
-    console.log('updateTemplate', updateTemplate);
     return updateTemplate;
     // if (toy._id)
     //     return axios

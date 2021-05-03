@@ -42,10 +42,10 @@ function post(entityType, newEntity) {
 function put(entityType, updatedEntity) {
     return query(entityType)
         .then(entities => {
-            console.log('entities', entities);
             const idx = entities.findIndex(entity => entity._id === updatedEntity._id)
             entities.splice(idx, 1, updatedEntity)
             _save(entityType, entities)
+            console.log('entities', entities);
             return updatedEntity
         })
 }

@@ -10,6 +10,7 @@ export const TemplateDetails = (props) => {
     useEffect(() => {
         dispatch(getTemplateById(props.match.params.id));
     }, [])
+    console.log('currTemplate', currTemplate);
     return (
         currTemplate && <section className="template-container details-page">
             <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>

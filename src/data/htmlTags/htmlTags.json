@@ -10,9 +10,27 @@
         "html": {
           "logo": "Vita",
           "a": [
-            "Home",
-            "Contact",
-            "About"
+            {
+              "txt": "Home",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "Contact",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "About",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            }
           ]
         }
       }

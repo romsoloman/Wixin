@@ -1,9 +1,8 @@
 import './NavbarPreview.scss'
 
 export const NavbarPreview = ({ navbar, getCmp, templateId }) => {
-    console.log('templateId', templateId);
     const clicked = () => {
-        getCmp(templateId,navbar)
+        getCmp(templateId, navbar)
     }
     return (
         navbar && <section className="item-controller" onClick={clicked}>
