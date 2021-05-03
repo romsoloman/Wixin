@@ -15,7 +15,7 @@ export const TemplatePreview = ({ template }) => {
                 <h4>{template.name}</h4>
             </header>
             <main className="img-template-preview">
-                <img src={template.backgroundImg} alt="" />
+                <img src={template.previewImg} alt="" />
             </main>
             <div className="edit-preview">
                 <Link to={'/editor/' + template._id}>

@@ -159,161 +159,8 @@
                 }
             ]
         },
-        "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-    },
-    {
-        "_id": "74893y3b53j",
-        "name": "SPORT WOW",
-        "addOns": {
-            "header": {
-                "navbar": [
-                    {
-                        "logo": "SPORT WOW",
-                        "a": [
-                            {
-                                "txt": "Home",
-                                "style": {
-                                    "color": "green",
-                                    "marginRight": "10px"
-                                }
-                            },
-                            {
-                                "txt": "Teams",
-                                "style": {
-                                    "color": "green",
-                                    "marginRight": "10px"
-                                }
-                            },
-                            {
-                                "txt": "About",
-                                "style": {
-                                    "color": "green",
-                                    "marginRight": "10px"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "hero": [
-                    {
-                        "h1": [
-                            {
-                                "txt": "Welcome to my Football web",
-                                "style": {
-                                    "fontSize": "80px",
-                                    "color": "green",
-                                    "maxWidth": "500px"
-                                }
-                            }
-                        ],
-                        "p": [
-                            {
-                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
-                                "style": {
-                                    "color": "green",
-                                    "max-width": "600px"
-                                }
-                            }
-                        ],
-                        "button": [
-                            {
-                                "txt": "Create your team",
-                                "style": {
-                                    "borderRadius": "30px",
-                                    "height": "40px"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            "main": {
-                "sections": [
-                    {
-                        "img": [
-                            {
-                                "url": "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
-                                "style": {
-                                    "width": "100px",
-                                    "flex": "1"
-                                }
-                            }
-                        ],
-                        "h1": [
-                            {
-                                "txt": "Create your dream team",
-                                "style": {
-                                    "fontSize": "30px"
-                                }
-                            }
-                        ],
-                        "p": [
-                            {
-                                "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
-                                "style": {
-                                    "fontSize": "15px"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "forms": [
-                    {
-                        "label": {
-                            "types": [
-                                "Player name",
-                                "Number",
-                                "Rating"
-                            ],
-                            "style": {}
-                        },
-                        "input": {
-                            "types": [
-                                "Player name",
-                                "Number",
-                                "Rating"
-                            ],
-                            "style": {}
-                        },
-                        "button": {
-                            "txt": "Create",
-                            "style": {}
-                        },
-                        "style": {}
-                    }
-                ]
-            },
-            "footer": [
-                {
-                    "h3": [
-                        {
-                            "txt": "All Rights Are Reserved To Wixin©.",
-                            "style": {}
-                        }
-                    ],
-                    "a": [
-                        {
-                            "txt": "facebook",
-                            "style": {}
-                        },
-                        {
-                            "txt": "instagram",
-                            "style": {}
-                        },
-                        {
-                            "txt": "twitter",
-                            "style": {}
-                        },
-                        {
-                            "txt": "github",
-                            "style": {}
-                        }
-                    ],
-                    "style": {}
-                }
-            ]
-        },
-        "backgroundImg": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "previewImg": "imgs/PreviewImg/Vita.png"
     },
     {
         "_id": "810sjhdkla91j92192",
@@ -494,16 +341,172 @@
                 }
             ]
         },
-        "backgroundImg": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"
+        "backgroundImg": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "previewImg": "imgs/PreviewImg/FitnessAcademy.png"
     },
     {
-        "_id": "6847262874b2",
-        "name": "ICar",
+        "_id": "74893y3b53j",
+        "name": "SPORT WOW",
         "addOns": {
             "header": {
                 "navbar": [
                     {
-                        "logo": "ICar",
+                        "logo": "SPORT WOW",
+                        "a": [
+                            {
+                                "txt": "Home",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "Teams",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            },
+                            {
+                                "txt": "About",
+                                "style": {
+                                    "color": "green",
+                                    "marginRight": "10px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "hero": [
+                    {
+                        "h1": [
+                            {
+                                "txt": "Welcome to my Football web",
+                                "style": {
+                                    "fontSize": "80px",
+                                    "color": "green",
+                                    "maxWidth": "500px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
+                                "style": {
+                                    "color": "green",
+                                    "maxWidth": "600px"
+                                }
+                            }
+                        ],
+                        "button": [
+                            {
+                                "txt": "Create your team",
+                                "style": {
+                                    "borderRadius": "30px",
+                                    "height": "40px"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "main": {
+                "sections": [
+                    {
+                        "img": [
+                            {
+                                "url": "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vdGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+                                "style": {
+                                    "width": "100px",
+                                    "flex": "1"
+                                }
+                            }
+                        ],
+                        "h1": [
+                            {
+                                "txt": "Create your dream team",
+                                "style": {
+                                    "fontSize": "30px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
+                                "style": {
+                                    "fontSize": "15px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "forms": [
+                    {
+                        "label": {
+                            "types": [
+                                "Player name",
+                                "Number",
+                                "Rating"
+                            ],
+                            "style": {}
+                        },
+                        "input": {
+                            "types": [
+                                "Player name",
+                                "Number",
+                                "Rating"
+                            ],
+                            "style": {}
+                        },
+                        "button": {
+                            "txt": "Create",
+                            "style": {}
+                        },
+                        "style": {}
+                    }
+                ]
+            },
+            "footer": [
+                {
+                    "h3": [
+                        {
+                            "txt": "All Rights Are Reserved To Wixin©.",
+                            "style": {}
+                        }
+                    ],
+                    "a": [
+                        {
+                            "txt": "facebook",
+                            "style": {}
+                        },
+                        {
+                            "txt": "instagram",
+                            "style": {}
+                        },
+                        {
+                            "txt": "twitter",
+                            "style": {}
+                        },
+                        {
+                            "txt": "github",
+                            "style": {}
+                        }
+                    ],
+                    "style": {}
+                }
+            ]
+        },
+        "backgroundImg": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "previewImg": "imgs/PreviewImg/SportWow.png"
+    },
+    {
+        "_id": "6847262874b2",
+        "name": "iCar",
+        "addOns": {
+            "header": {
+                "navbar": [
+                    {
+                        "logo": "iCar",
                         "a": [
                             {
                                 "txt": "Home",
@@ -538,6 +541,7 @@
                             {
                                 "txt": "Choose your dream car!",
                                 "style": {
+                                    "margin": "2rem",
                                     "fontSize": "80px",
                                     "color": "white",
                                     "textAlign": "center"
@@ -548,6 +552,7 @@
                             {
                                 "txt": "Here you can find the car you have always dreamed of.",
                                 "style": {
+                                    "margin": "2rem",
                                     "color": "whitesmoke",
                                     "textAlign": "center",
                                     "fontSize": "28px",
@@ -560,7 +565,7 @@
                                 "txt": "continue",
                                 "style": {
                                     "borderRadius": "30px",
-                                    "margin": "auto",
+                                    "margin": "2rem",
                                     "width": "100px",
                                     "display": "flex",
                                     "justifyContent": "center",
@@ -569,7 +574,13 @@
                                     "height": "40px"
                                 }
                             }
-                        ]
+                        ],
+                        "style": {
+                            "display": "flex",
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "flexDirection": "column"
+                        }
                     }
                 ]
             },
@@ -659,6 +670,7 @@
                 }
             ]
         },
-        "backgroundImg": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        "backgroundImg": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "previewImg": "imgs/PreviewImg/iCar.png"
     }
 ]
