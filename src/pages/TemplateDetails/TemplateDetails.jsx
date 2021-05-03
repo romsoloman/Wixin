@@ -18,7 +18,7 @@ export const TemplateDetails = (props) => {
                         <nav className="flex justify-between align-center nav-items" key={idx}>
                             <h1 className="nav-logo">{nav.logo}</h1>
                             <div className="flex justify-between">
-                                {nav.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
+                                {nav.a.map((item, idx) => <a href="" key={idx} style={item.style}>{item.txt}</a>)}
                             </div>
                         </nav>
                     )
@@ -64,7 +64,7 @@ export const TemplateDetails = (props) => {
                         <section className="container main-footer flex justify-between align-center" key={idx} style={footer.style}>
                             {footer.h3.map((h3, idx) => <h3 key={idx} style={h3.style}>{h3.txt}</h3>)}
                             <div className="flex align-center icons">
-                                {footer.a.map((item, idx) => <a href="#" key={idx} style={item.style}>{item.txt}</a>)}
+                                {footer.a.map((item, idx) => <a href="" key={idx} style={item.style}><i className={`fab fa-${item.txt}`}></i></a>)}
                             </div>
                         </section>
                     )
