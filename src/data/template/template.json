@@ -509,21 +509,24 @@
                                 "txt": "Home",
                                 "style": {
                                     "color": "white",
-                                    "marginRight": "20px"
+                                    "marginRight": "20px",
+                                    "fontSize":"20px"
                                 }
                             },
                             {
                                 "txt": "Companies",
                                 "style": {
                                     "color": "white",
-                                    "marginRight": "20px"
+                                    "marginRight": "20px",
+                                    "fontSize":"20px"
                                 }
                             },
                             {
                                 "txt": "About",
                                 "style": {
                                     "color": "white",
-                                    "marginRight": "20px"
+                                    "marginRight": "20px",
+                                    "fontSize":"20px"
                                 }
                             }
                         ]
@@ -536,7 +539,7 @@
                                 "txt": "Choose your dream car!",
                                 "style": {
                                     "fontSize": "80px",
-                                    "color":"#1E90FF",
+                                    "color":"white",
                                     "textAlign":"center"
                                 }
                             }
@@ -559,6 +562,9 @@
                                     "margin":"auto",
                                     "width":"100px",
                                     "display":"flex",
+                                    "justifyContent":"center",
+                                    "alignItems":"center",
+                                    "fontSize":"18px",
                                     "height":"40px"
                                 }
                             }
