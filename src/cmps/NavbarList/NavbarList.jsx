@@ -1,11 +1,12 @@
 import { NavbarPreview } from '../NavbarPreview/NavbarPreview'
 import './NavbarList.scss'
 
-export const NavbarList = ({ props, getCmp }) => {
+export const NavbarList = ({ props, getCmp,templateId }) => {
+
     return (
         props && <section>
             <ul className="items-list-controller">
-                {props.data.map((navbar) => <NavbarPreview navbar={navbar} key={navbar.id} getCmp={getCmp} />)}
+                {props.data.map((navbar) => <NavbarPreview navbar={navbar} key={navbar.id} templateId={templateId} getCmp={getCmp} />)}
             </ul>
         </section>
     )
