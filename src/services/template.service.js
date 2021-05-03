@@ -1,4 +1,6 @@
-// import { utilService } from './util.service.js';
+import { utilService } from './util.service.js';
+import { storageService } from './async-storage.service';
+
 // import { httpService } from './http.service.js';
 const templateData = require('../data/template/template.json');
 // import axios from 'axios';
@@ -32,12 +34,12 @@ function query() {
     //     .get(TOY_URL, { params: gFilterBy })
     //     .then(({ data }) => data)
     //     .catch((err) => err);
-    return Promise.resolve(templateData);
+    localStorage.setItem('templates', JSON.stringify(templateData));
+    return storageService.query('templates')
 }
 
 function getById(id) {
-    const template = templateData.find(t => t._id === id)
-    return Promise.resolve(template);
+    return storageService.get('templates', id)
     // return httpService.get(`toy/${id}`)
     // return axios
     //     .get(TOY_URL + id)
@@ -55,7 +57,10 @@ function remove(id) {
     //     .catch((err) => err);
 }
 
-function save(toy) {
+function save(template) {
+    const updateTemplate = template._id ? storageService.put('templates', template) : storageService.post('templates', template)
+    console.log('updateTemplate', updateTemplate);
+    return updateTemplate;
     // if (toy._id)
     //     return axios
     //         .put(TOY_URL + toy._id, toy)

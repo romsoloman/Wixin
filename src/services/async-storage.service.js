@@ -27,21 +27,22 @@ function post(entityType, newEntity) {
             return newEntity
         })
 }
-function postMany(entityType, newEntities) {
-    return query(entityType)
-        .then(entities => {
-            newEntities = newEntities.map(entity => ({...entity, _id: _makeId()}))
-            entities.push(...newEntities)
-            _save(entityType, entities)
-            return newEntity
-        })
-}
+// function postMany(entityType, newEntities) {
+//     return query(entityType)
+//         .then(entities => {
+//             newEntities = newEntities.map(entity => ({...entity, _id: _makeId()}))
+//             entities.push(...newEntities)
+//             _save(entityType, entities)
+//             return newEntity
+//         })
+// }
 
 
 
 function put(entityType, updatedEntity) {
     return query(entityType)
         .then(entities => {
+            console.log('entities', entities);
             const idx = entities.findIndex(entity => entity._id === updatedEntity._id)
             entities.splice(idx, 1, updatedEntity)
             _save(entityType, entities)

@@ -4,6 +4,7 @@ const INITIAL_STATE = {
 }
 
 export function templateReducer(state = INITIAL_STATE, action) {
+  console.log('action', action);
   switch (action.type) {
     case 'SET_TEMPLATES':
       return {
