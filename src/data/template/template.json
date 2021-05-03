@@ -495,5 +495,164 @@
             ]
         },
         "backgroundImg": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80"
+    },
+     {
+        "_id": "6847262874b2",
+        "name": "ICar",
+        "addOns": {
+            "header": {
+                "navbar": [
+                    {
+                        "logo": "ICar",
+                        "a": [
+                            {
+                                "txt": "Home",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "20px"
+                                }
+                            },
+                            {
+                                "txt": "Companies",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "20px"
+                                }
+                            },
+                            {
+                                "txt": "About",
+                                "style": {
+                                    "color": "white",
+                                    "marginRight": "20px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "hero": [
+                    {
+                        "h1": [
+                            {
+                                "txt": "Choose your dream car!",
+                                "style": {
+                                    "fontSize": "80px",
+                                    "color":"#1E90FF",
+                                    "textAlign":"center"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "Here you can find the car you have always dreamed of",
+                                "style": {
+                                    "color": "#00BFFF",
+                                    "textAlign":"center",
+                                    "fontSize":"28px"
+                                }
+                            }
+                        ],
+                        "button": [
+                            {
+                                "txt": "continue",
+                                "style": {
+                                    "borderRadius": "30px",
+                                    "margin":"auto",
+                                    "width":"100px",
+                                    "display":"flex",
+                                    "height":"40px"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "main": {
+                "sections": [
+                    {
+                        "img": [
+                            {
+                                "url": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVycmFyaXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+                                "style": {
+                                    "width": "100px",
+                                    "flex":"2"
+                                }
+                            }
+                        ],
+                        "h1": [
+                            {
+                                "txt": "This car can be yours",
+                                "style": {
+                                    "fontSize": "30px"
+                                }
+                            }
+                        ],
+                        "p": [
+                            {
+                                "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
+                                "style": {
+                                    "fontSize": "15px"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "forms": [
+                    {
+                        "label": {
+                            "types": [
+                                "Company",
+                                "color",
+                                "price"
+                            ],
+                            "style": {}
+                        },
+                        "input": {
+                            "types": [
+                                "Company",
+                                "color",
+                                "price"
+                            ],
+                            "style": {}
+                        },
+                        "button": {
+                            "txt": "choose",
+                            "style": {}
+                        },
+                        "style": {}
+                    }
+                ]
+            },
+            "footer": [
+                {
+                    "h3": [
+                        {
+                            "txt": "All Rights Are Reserved To Wixin©.",
+                            "style": {}
+                        }
+                    ],
+                    "a": [
+                        {
+                            "txt": "facebook",
+                            "style": {}
+                        },
+                        {
+                            "txt": "instagram",
+                            "style": {}
+                        },
+                        {
+                            "txt": "twitter",
+                            "style": {}
+                        },
+                        {
+                            "txt": "github",
+                            "style": {}
+                        }
+                    ],
+                    "style": {}
+                }
+            ]
+        },
+        "backgroundImg": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     }
+
 ]
