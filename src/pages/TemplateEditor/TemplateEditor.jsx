@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ControllerAdd } from '../../cmps/ControllerAdd/ControllerAdd'
-import { loadTemplates, getTemplateById, saveTemplate } from '../../store/actions/templateActions'
+import { loadTemplates, getTemplateById, saveTemplate, getEmptyTemplate } from '../../store/actions/templateActions'
 import { TemplateDetails } from '../TemplateDetails/TemplateDetails'
 import './TemplateEditor.scss'
 
@@ -16,7 +16,7 @@ export const TemplateEditor = (props) => {
         dispatch(loadTemplates())
         if (props.match.params.id) {
             updateIsEditor(prevState => prevState = true);
-        }
+        } else dispatch(getEmptyTemplate())
     }, [])
 
     const getCmp = (templateId, item, tagName,section) => {
@@ -32,7 +32,6 @@ export const TemplateEditor = (props) => {
             {isEditor && <TemplateDetails {...props} />}
             {!isEditor &&
                 (<section className="workspace">
-
                 </section>)
             }
         </section>

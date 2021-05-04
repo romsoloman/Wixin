@@ -16,12 +16,11 @@ export const templateService = {
     getById,
     remove,
     save,
-    getEmptyToy,
+    getEmptyTemplate,
     setFilter,
 };
 
-// _createToys();
-
+const TEMPLATE_KEY = 'templates';
 
 function setFilter(filterBy) {
     // gFilterBy = filterBy;
@@ -34,16 +33,17 @@ function query() {
     //     .get(TOY_URL, { params: gFilterBy })
     //     .then(({ data }) => data)
     //     .catch((err) => err);
-    if (localStorage.getItem('templates')) {
-        return storageService.query('templates')
+
+    if (localStorage.getItem(TEMPLATE_KEY)) {
+        return storageService.query(TEMPLATE_KEY)
     } else {
-        const templates = localStorage.setItem('templates', JSON.stringify(templateData));
-        return Promise.resolve(templates)
+        const templates = localStorage.setItem(TEMPLATE_KEY, JSON.stringify(templateData));
+        return Promise.resolve(templates);
     }
 }
 
 function getById(id) {
-    return storageService.get('templates', id)
+    return storageService.get(TEMPLATE_KEY, id)
     // return httpService.get(`toy/${id}`)
     // return axios
     //     .get(TOY_URL + id)
@@ -62,7 +62,7 @@ function remove(id) {
 }
 
 function save(template) {
-    const updateTemplate = template._id ? storageService.put('templates', template) : storageService.post('templates', template)
+    const updateTemplate = template._id ? storageService.put(TEMPLATE_KEY, template) : storageService.post(TEMPLATE_KEY, template)
     return updateTemplate;
     // if (toy._id)
     //     return axios
@@ -78,15 +78,28 @@ function save(template) {
     // return httpService.post('toy/', toy)
 }
 
-function getEmptyToy(name = '', price = 100, type, createdAt) {
+function getEmptyTemplate(name = '',) {
     return {
         _id: '',
         name,
-        price,
-        type,
-        createdAt,
-        inStock: null,
-        reviews: null
+        addOns: {
+            header: {
+                navbar: [],
+                hero: []
+            },
+            main: {
+                sections: [],
+                forms: [],
+                cards: [],
+                texts: [],
+                maps: [],
+                images: [],
+                videos: [],
+            },
+            footer: []
+        },
+        backgroundImg: null,
+        previewImg: null,
     };
 }
 

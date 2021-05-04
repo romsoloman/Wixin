@@ -18,6 +18,13 @@ export function getTemplateById(templateId) {
     dispatch({ type: 'SET_TEMPLATE', template })
   }
 }
+
+export function getEmptyTemplate() {
+  return async dispatch => {
+    const emptyTemplate = await templateService.getEmptyTemplate()
+    dispatch({ type: 'SET_EMPTY_TEMPLATE', emptyTemplate })
+  }
+}
 export function saveTemplate(template) {
   return async dispatch => {
     const isAdd = !template._id
