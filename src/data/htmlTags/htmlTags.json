@@ -229,16 +229,17 @@
       {
         "id": "bkjewge6767",
         "className": "footer-",
-        "backgroundImage": "imgs/footers/footer-1.png",
+        "backgroundImage": "imgs/footers/footer-2.png",
         "style": {
           "backgroundColor": "white"
         },
         "html": {
           "h3": [
             {
-              "txt": "All Rights Are Reserved To Rom and Oded.",
+              "txt": "You can find us here  ➡",
               "style": {
-                "backgroundColor": "red"
+                "fontSize":"24px",
+                "letter-spacing": "2px"
               }
             }
           ],
