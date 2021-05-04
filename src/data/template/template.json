@@ -124,41 +124,43 @@
                     }
                 ]
             },
-            "footer": [
-                {
-                    "h3": [
-                        {
-                            "txt": "All Rights Are Reserved To Wixin©.",
-                            "style": {}
-                        }
-                    ],
-                    "a": [
-                        {
-                            "txt": "facebook",
-                            "style": {
-                                "marginRight": "15px"
+            "footer": {
+                "footer": [
+                    {
+                        "h3": [
+                            {
+                                "txt": "All Rights Are Reserved To Wixin©.",
+                                "style": {}
                             }
-                        },
-                        {
-                            "txt": "instagram",
-                            "style": {
-                                "marginRight": "15px"
+                        ],
+                        "a": [
+                            {
+                                "txt": "facebook",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "instagram",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "twitter",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "github",
+                                "style": {}
                             }
-                        },
-                        {
-                            "txt": "twitter",
-                            "style": {
-                                "marginRight": "15px"
-                            }
-                        },
-                        {
-                            "txt": "github",
-                            "style": {}
-                        }
-                    ],
-                    "style": {}
-                }
-            ]
+                        ],
+                        "style": {}
+                    }
+                ]
+            }
         },
         "backgroundImg": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "previewImg": "imgs/PreviewImg/Vita.png"
@@ -307,41 +309,43 @@
                     }
                 ]
             },
-            "footer": [
-                {
-                    "h3": [
-                        {
-                            "txt": "All Rights Are Reserved To Wixin©.",
-                            "style": {}
-                        }
-                    ],
-                    "a": [
-                        {
-                            "txt": "facebook",
-                            "style": {
-                                "marginRight": "15px"
+            "footer": {
+                "footer": [
+                    {
+                        "h3": [
+                            {
+                                "txt": "All Rights Are Reserved To Wixin©.",
+                                "style": {}
                             }
-                        },
-                        {
-                            "txt": "instagram",
-                            "style": {
-                                "marginRight": "15px"
+                        ],
+                        "a": [
+                            {
+                                "txt": "facebook",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "instagram",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "twitter",
+                                "style": {
+                                    "marginRight": "15px"
+                                }
+                            },
+                            {
+                                "txt": "github",
+                                "style": {}
                             }
-                        },
-                        {
-                            "txt": "twitter",
-                            "style": {
-                                "marginRight": "15px"
-                            }
-                        },
-                        {
-                            "txt": "github",
-                            "style": {}
-                        }
-                    ],
-                    "style": {}
-                }
-            ]
+                        ],
+                        "style": {}
+                    }
+                ]
+            }
         },
         "backgroundImg": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "previewImg": "imgs/PreviewImg/FitnessAcademy.png"
@@ -469,35 +473,37 @@
                     }
                 ]
             },
-            "footer": [
-                {
-                    "h3": [
-                        {
-                            "txt": "All Rights Are Reserved To Wixin©.",
-                            "style": {}
-                        }
-                    ],
-                    "a": [
-                        {
-                            "txt": "facebook",
-                            "style": {}
-                        },
-                        {
-                            "txt": "instagram",
-                            "style": {}
-                        },
-                        {
-                            "txt": "twitter",
-                            "style": {}
-                        },
-                        {
-                            "txt": "github",
-                            "style": {}
-                        }
-                    ],
-                    "style": {}
-                }
-            ]
+            "footer": {
+                "footer": [
+                    {
+                        "h3": [
+                            {
+                                "txt": "All Rights Are Reserved To Wixin©.",
+                                "style": {}
+                            }
+                        ],
+                        "a": [
+                            {
+                                "txt": "facebook",
+                                "style": {}
+                            },
+                            {
+                                "txt": "instagram",
+                                "style": {}
+                            },
+                            {
+                                "txt": "twitter",
+                                "style": {}
+                            },
+                            {
+                                "txt": "github",
+                                "style": {}
+                            }
+                        ],
+                        "style": {}
+                    }
+                ]
+            }
         },
         "backgroundImg": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "previewImg": "imgs/PreviewImg/SportWow.png"
@@ -644,35 +650,37 @@
                     }
                 ]
             },
-            "footer": [
-                {
-                    "h3": [
-                        {
-                            "txt": "All Rights Are Reserved To Wixin©.",
-                            "style": {}
-                        }
-                    ],
-                    "a": [
-                        {
-                            "txt": "facebook",
-                            "style": {}
-                        },
-                        {
-                            "txt": "instagram",
-                            "style": {}
-                        },
-                        {
-                            "txt": "twitter",
-                            "style": {}
-                        },
-                        {
-                            "txt": "github",
-                            "style": {}
-                        }
-                    ],
-                    "style": {}
-                }
-            ]
+            "footer": {
+                "footer": [
+                    {
+                        "h3": [
+                            {
+                                "txt": "All Rights Are Reserved To Wixin©.",
+                                "style": {}
+                            }
+                        ],
+                        "a": [
+                            {
+                                "txt": "facebook",
+                                "style": {}
+                            },
+                            {
+                                "txt": "instagram",
+                                "style": {}
+                            },
+                            {
+                                "txt": "twitter",
+                                "style": {}
+                            },
+                            {
+                                "txt": "github",
+                                "style": {}
+                            }
+                        ],
+                        "style": {}
+                    }
+                ]
+            }
         },
         "backgroundImg": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "previewImg": "imgs/PreviewImg/iCar.png"

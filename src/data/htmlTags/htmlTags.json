@@ -49,9 +49,36 @@
           "backgroundColor": "pink"
         },
         "html": {
-          "h1": "Welcome to my web",
-          "p": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word",
-          "button": "Get Started"
+          "h1": [
+            {
+              "txt": "Welcome to my web",
+              "style": {
+                "fontSize": "65px",
+                "marginTop": "12rem",
+                "color": "white",
+                "textTransform": "capitalize"
+              }
+            }
+          ],
+          "p": [
+            {
+              "txt": "The smallest unit that has organizational meaning in the book is the paragraph. The single letter does not survive the translation from language to language, nor does the word.",
+              "style": {
+                "maxWidth": "700px",
+                "color": "white"
+              }
+            }
+          ],
+          "button": [
+            {
+              "txt": "Get Started",
+              "style": {
+                "borderRadius": "10px",
+                "height": "40px",
+                "width": "150px"
+              }
+            }
+          ]
         }
       }
     ]
@@ -69,9 +96,30 @@
           "backgroundColor": "pink"
         },
         "html": {
-          "img": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
-          "h1": "Most Beautiful Island in the World",
-          "p": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts."
+          "img": [
+            {
+              "url": "https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg",
+              "style": {
+                "flex": "1"
+              }
+            }
+          ],
+          "h1": [
+            {
+              "txt": "Most Beautiful Island in the World",
+              "style": {
+                "fontSize": "20px"
+              }
+            }
+          ],
+          "p": [
+            {
+              "txt": "Islands conjure dreams of paradise: an escape from the rat race and a perfect patch of sand where you can relax under rustling palms and gaze at a serene blue sea.But not all islands are created the same. The beauty of some is defined more by the sea that surrounds them, which can captivate connoisseurs with its crystalline clarity and thriving coral kingdoms.Other islands feature luxuriant jungles and velvety peaks, and some enchant travelers with their cultural jewels. Whether it's sublime beaches, stunning topography, or exotic cultures you seek, these islands lie far from the workaday clamor but close to creature comforts.",
+              "style": {
+                "fontSize": "15px"
+              }
+            }
+          ]
         }
       }
     ]
@@ -148,18 +196,28 @@
           "backgroundColor": "yellow"
         },
         "html": {
-          "lables": [
-            "Name",
-            "Email",
-            "Phone"
-          ],
-          "input": [
-            "text",
-            "email",
-            "phone"
-          ],
+          "label": {
+            "types": [
+              "text",
+              "email",
+              "phone"
+            ],
+            "style": {}
+          },
+          "input": {
+            "types": [
+              "text",
+              "email",
+              "phone"
+            ],
+            "style": {}
+          },
           "textArea": "your message",
-          "button": "Send"
+          "button": {
+            "txt": "Send",
+            "style": {}
+          },
+          "style": {}
         }
       }
     ]
@@ -176,13 +234,39 @@
           "backgroundColor": "white"
         },
         "html": {
-          "h3": "All Rights Are Reserved To Wixin©.",
+          "h3": [
+            {
+              "txt": "All Rights Are Reserved To Rom and Oded.",
+              "style": {
+                "backgroundColor": "red"
+              }
+            }
+          ],
           "a": [
-            "facebook",
-            "instagram",
-            "twitter",
-            "github"
-          ]
+            {
+              "txt": "facebook",
+              "style": {
+                "marginRight": "15px"
+              }
+            },
+            {
+              "txt": "instagram",
+              "style": {
+                "marginRight": "15px"
+              }
+            },
+            {
+              "txt": "twitter",
+              "style": {
+                "marginRight": "15px"
+              }
+            },
+            {
+              "txt": "github",
+              "style": {}
+            }
+          ],
+          "style": {}
         }
       }
     ]

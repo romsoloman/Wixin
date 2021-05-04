@@ -19,12 +19,9 @@ export const TemplateEditor = (props) => {
         } else dispatch(getEmptyTemplate())
     }, [])
 
-    const getCmp = (templateId, item, tagName,section) => {
-        console.log('item', item);
-        console.log('section', section);
-        console.log('tagName', tagName);
+    const getCmp = (templateId, item, tagName, section) => {
         dispatch(getTemplateById(templateId))
-        currTemplate.addOns[section][tagName] = [{...item.html}];
+        currTemplate.addOns[section][tagName] = [{ ...item.html }];
         dispatch(saveTemplate(currTemplate));
         dispatch(loadTemplates())
     }
@@ -35,6 +32,7 @@ export const TemplateEditor = (props) => {
             {isEditor && <TemplateDetails {...props} />}
             {!isEditor &&
                 (<section className="workspace">
+                    {currTemplate}
                 </section>)
             }
         </section>
