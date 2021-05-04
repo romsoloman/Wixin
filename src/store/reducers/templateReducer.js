@@ -15,6 +15,11 @@ export function templateReducer(state = INITIAL_STATE, action) {
         ...state,
         currTemplate: action.template
       }
+    case 'SET_EMPTY_TEMPLATE':
+      return {
+        ...state,
+        currTemplate: action.emptyTemplate
+      }
     case 'ADD_TEMPLATE':
       return {
         ...state,
