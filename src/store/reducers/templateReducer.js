@@ -32,6 +32,7 @@ export function templateReducer(state = INITIAL_STATE, action) {
       }
     case 'UPDATE_TEMPLATE':
       const { updatedTemplate } = action
+      console.log('updatedTemplate', updatedTemplate);
       console.log('state', state);
       return {
         ...state,

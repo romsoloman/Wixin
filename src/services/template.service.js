@@ -63,6 +63,7 @@ function remove(id) {
 
 function save(template) {
     const updateTemplate = template._id ? storageService.put(TEMPLATE_KEY, template) : storageService.post(TEMPLATE_KEY, template)
+    console.log('updateTemplate', updateTemplate);
     return updateTemplate;
     // if (toy._id)
     //     return axios

@@ -22,8 +22,11 @@ export const TemplateEditor = (props) => {
     const getCmp = (templateId, item, tagName, section) => {
         dispatch(getTemplateById(templateId))
         currTemplate.addOns[section][tagName] = [{ ...item.html }];
+        console.log(1);
         dispatch(saveTemplate(currTemplate));
+        console.log(2);
         dispatch(loadTemplates())
+        console.log(3);
     }
 
     return (

@@ -33,6 +33,39 @@
             }
           ]
         }
+      },
+      {
+        "id": "73489y3b",
+        "className": "navbar-",
+        "backgroundImage": "imgs/navbars/navbar-1.png",
+        "html": {
+          "style": {
+          },
+          "logo": "MY WEB",
+          "a": [
+            {
+              "txt": "Home",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "Contact",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "About",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            }
+          ]
+        }
       }
     ]
   },
