@@ -4,18 +4,18 @@ import { useSelector, useDispatch } from 'react-redux';
 import './TemplateDetails.scss'
 import { ControllerAdd } from '../../cmps/ControllerAdd/ControllerAdd';
 
-export const TemplateDetails = (props) => {
+export const TemplateDetails = ({ id }) => {
     const currTemplate = useSelector(state => state.templateReducer.currTemplate)
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(getTemplateById(props.match.params.id));
+        dispatch(getTemplateById(id));
     }, [])
     return (
         currTemplate && <section className="template-container details-page">
             <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>
                 {currTemplate.addOns.header.navbar.map((nav, idx) => {
                     return (
-                        <nav className="flex justify-between align-center nav-items" key={idx}>
+                        <nav className="flex justify-between align-center nav-items" key={idx} style={nav.style}>
                             <h1 className="nav-logo">{nav.logo}</h1>
                             <div className="flex justify-between">
                                 {nav.a.map((item, idx) => <a href="" key={idx} style={item.style}>{item.txt}</a>)}

@@ -21,18 +21,16 @@ export const TemplateEditor = (props) => {
 
     const getCmp = (templateId, item, tagName, section) => {
         dispatch(getTemplateById(templateId))
-        currTemplate.addOns[section][tagName] = [{ ...item.html }];
+        currTemplate.addOns[section][tagName] = [...currTemplate.addOns[section][tagName], { ...item.html }];
         dispatch(saveTemplate(currTemplate));
         dispatch(loadTemplates())
     }
-
     return (
         <section className="container editor-container templete-editor">
             <ControllerAdd getCmp={getCmp} templateId={props.match.params.id} />
-            {isEditor && <TemplateDetails {...props} />}
+            {isEditor && <TemplateDetails id={props.match.params.id} />}
             {!isEditor &&
                 (<section className="workspace">
-                    {currTemplate}
                 </section>)
             }
         </section>

@@ -30,7 +30,8 @@
                                     "marginRight": "10px"
                                 }
                             }
-                        ]
+                        ],
+                        "style": {}
                     }
                 ],
                 "hero": [

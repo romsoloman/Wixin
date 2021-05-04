@@ -29,7 +29,6 @@ export function saveTemplate(template) {
   return async dispatch => {
     const isAdd = !template._id
     const updatedTemplate = await templateService.save(template)
-
     if (isAdd) dispatch({ type: 'ADD_TEMPLATE', template: updatedTemplate })
     else dispatch({ type: 'UPDATE_TEMPLATE', updatedTemplate })
   }
