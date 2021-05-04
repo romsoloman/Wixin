@@ -1,9 +1,9 @@
 
 import './CardPreview.scss'
 
-export const CardPreview = ({ card, getCmp }) => {
+export const CardPreview = ({ card, getCmp, templateId,tagName  }) => {
     const clicked = () => {
-        getCmp(card)
+        getCmp(templateId, card, tagName, 'main')
     }
     return (
         card && <section className="item-controller" onClick={clicked}>

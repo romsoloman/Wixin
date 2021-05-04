@@ -13,15 +13,14 @@ import { FooterList } from '../FooterList/FooterList';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 const cmpMap = {
-    'Navbars': NavbarList,
-    'Heroes': HeroList,
-    'Sections': SectionList,
-    'Cards': CardList,
-    'Texts': TextList,
-    'Images': ImageList,
-    'Forms': FormList,
-    'Footers': FooterList,
-
+    'navbar': NavbarList,
+    'hero': HeroList,
+    'sections': SectionList,
+    'cards': CardList,
+    'texts': TextList,
+    'images': ImageList,
+    'forms': FormList,
+    'footer': FooterList,
 }
 
 export const ControllerAdd = (props) => {

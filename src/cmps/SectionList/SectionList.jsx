@@ -1,12 +1,12 @@
 import { SectionPreview } from '../SectionPreview/SectionPreview'
 import './SectionList.scss'
 
-export const SectionList = ({ props }) => {
+export const SectionList = ({ props, getCmp, templateId }) => {
 
     return (
         props && <section>
             <ul className="items-list-controller">
-                {props.data.map((section) => <SectionPreview section={section} key={section.id} />)}
+                {props.data.map((section) => <SectionPreview section={section} key={section.id}  templateId={templateId} getCmp={getCmp} tagName={props.tagName} />)}
             </ul>
         </section>
     )

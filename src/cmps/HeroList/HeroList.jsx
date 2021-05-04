@@ -1,12 +1,12 @@
 import { HeroPreview } from '../HeroPreview/HeroPreview'
 import './HeroList.scss'
 
-export const HeroList = ({ props }) => {
+export const HeroList = ({ props, getCmp, templateId  }) => {
 
     return (
         props && <section>
             <ul className="items-list-controller">
-                {props.data.map((hero) => <HeroPreview hero={hero} key={hero.id} />)}
+                {props.data.map((hero) => <HeroPreview hero={hero} key={hero.id} templateId={templateId} getCmp={getCmp} tagName={props.tagName} />)}
             </ul>
         </section>
     )

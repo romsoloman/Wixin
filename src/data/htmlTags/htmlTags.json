@@ -1,7 +1,7 @@
 [
   {
     "_id": "389189019najks82",
-    "tagName": "Navbars",
+    "tagName": "navbar",
     "data": [
       {
         "id": "68757586",
@@ -38,7 +38,7 @@
   },
   {
     "_id": "893428y423hj3",
-    "tagName": "Heroes",
+    "tagName": "hero",
     "data": [
       {
         "id": "5246725627",
@@ -58,7 +58,7 @@
   },
   {
     "_id": "567565585",
-    "tagName": "Sections",
+    "tagName": "sections",
     "data": [
       {
         "id": "t767657657",
@@ -78,7 +78,7 @@
   },
   {
     "_id": "6875765",
-    "tagName": "Cards",
+    "tagName": "cards",
     "data": [
       {
         "id": "83y7982y3",
@@ -98,7 +98,7 @@
   },
   {
     "_id": "8746282468",
-    "tagName": "Texts",
+    "tagName": "texts",
     "data": [
       {
         "id": "68757657",
@@ -117,7 +117,7 @@
   },
   {
     "_id": "64287236487",
-    "tagName": "Images",
+    "tagName": "images",
     "data": [
       {
         "id": "787987",
@@ -138,7 +138,7 @@
   },
   {
     "_id": "678657567",
-    "tagName": "Forms",
+    "tagName": "forms",
     "data": [
       {
         "id": "678d68d78",
@@ -166,7 +166,7 @@
   },
   {
     "_id": "762872364",
-    "tagName": "Footers",
+    "tagName": "footer",
     "data": [
       {
         "id": "bkjewge6767",

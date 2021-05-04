@@ -19,13 +19,13 @@ export const TemplateEditor = (props) => {
         }
     }, [])
 
-    const getCmp = (templateId, item) => {
+    const getCmp = (templateId, item, tagName,section) => {
         dispatch(getTemplateById(templateId))
-        currTemplate.addOns.header.navbar = [{ ...item.html }];
-        console.log('currTemplate.addOns.header.navbar', currTemplate.addOns.header.navbar);
+        currTemplate.addOns[section][tagName] = [{...item.html}];
         dispatch(saveTemplate(currTemplate));
         dispatch(loadTemplates())
     }
+
     return (
         <section className="container editor-container templete-editor">
             <ControllerAdd getCmp={getCmp} templateId={props.match.params.id} />

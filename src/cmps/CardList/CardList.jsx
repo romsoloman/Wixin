@@ -1,7 +1,7 @@
 import { CardPreview } from '../CardPreview/CardPreview'
 import './CardList.scss'
 
-export const CardList = ({ props, getCmp }) => {
+export const CardList = ({ props, getCmp, templateId }) => {
     return (
         props && <section>
             <ul className="items-list-controller">
