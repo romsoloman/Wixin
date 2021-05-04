@@ -59,7 +59,7 @@ export const TemplateDetails = (props) => {
                 })} */}
             </main>
             <footer>
-                {currTemplate.addOns.footer.map((footer, idx) => {
+                {currTemplate.addOns.footer.footer.map((footer, idx) => {
                     return (
                         <section className="container main-footer flex justify-between align-center" key={idx} style={footer.style}>
                             {footer.h3.map((h3, idx) => <h3 key={idx} style={h3.style}>{h3.txt}</h3>)}
