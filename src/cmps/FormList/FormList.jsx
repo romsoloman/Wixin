@@ -5,6 +5,7 @@ export const FormList = ({ props,getCmp, templateId  }) => {
 
     return (
         props && <section>
+            FORM
             <ul className="items-list-controller">
                 {props.data.map((form) => <FormPreview form={form} key={form.id} templateId={templateId} getCmp={getCmp} tagName={props.tagName} />)}
             </ul>

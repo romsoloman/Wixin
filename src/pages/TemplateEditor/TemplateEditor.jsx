@@ -23,7 +23,9 @@ export const TemplateEditor = (props) => {
         dispatch(getTemplateById(templateId))
         currTemplate.addOns[section][tagName] = [...currTemplate.addOns[section][tagName], { ...item.html }];
         dispatch(saveTemplate(currTemplate));
+        console.log(2);
         dispatch(loadTemplates())
+        console.log(3);
     }
     return (
         <section className="container editor-container templete-editor">

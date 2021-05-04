@@ -36,6 +36,39 @@
             "backgroundColor": "pink"
           }
         }
+      },
+      {
+        "id": "73489y3b",
+        "className": "navbar-",
+        "backgroundImage": "imgs/navbars/navbar-1.png",
+        "html": {
+          "style": {
+          },
+          "logo": "MY WEB",
+          "a": [
+            {
+              "txt": "Home",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "Contact",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            },
+            {
+              "txt": "About",
+              "style": {
+                "color": "white",
+                "marginRight": "10px"
+              }
+            }
+          ]
+        }
       }
     ]
   },
@@ -232,16 +265,17 @@
       {
         "id": "bkjewge6767",
         "className": "footer-",
-        "backgroundImage": "imgs/footers/footer-1.png",
+        "backgroundImage": "imgs/footers/footer-2.png",
         "style": {
           "backgroundColor": "white"
         },
         "html": {
           "h3": [
             {
-              "txt": "All Rights Are Reserved To Rom and Oded.",
+              "txt": "You can find us here  ➡",
               "style": {
-                "backgroundColor": "red"
+                "fontSize":"24px",
+                "letter-spacing": "2px"
               }
             }
           ],

@@ -12,6 +12,7 @@ export const TemplateDetails = ({ id }) => {
     }, [])
     return (
         currTemplate && <section className="template-container details-page">
+
             <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>
                 {currTemplate.addOns.header.navbar.map((nav, idx) => {
                     return (
