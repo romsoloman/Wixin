@@ -15,7 +15,7 @@ export const TemplateApp = (props) => {
     return (
         templates && <section className='container template-app'>
             <h1 className="template-app-header">Select a template or create a site from scratch</h1>
-            <TemplateList templates={templates} />
+            <TemplateList templates={templates}/>
         </section >
     )
 }

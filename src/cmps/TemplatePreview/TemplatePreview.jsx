@@ -14,17 +14,17 @@ export const TemplatePreview = ({ template }) => {
                 </div>
                 <h4>{template.name}</h4>
             </header>
-            <main className="img-template-preview">
-                <img src={template.previewImg} alt="" />
-            </main>
+            <main className="img-template-preview" style={{ backgroundImage: `url(${template.previewImg})` }}>
+                {/* <img src={template.previewImg} alt="" /> */}
             <div className="edit-preview">
                 <Link to={'/editor/' + template._id}>
-                    Edit
+                    Choose <i class="fas fa-arrow-right"></i>
                 </Link>
                 <Link to={'/preview/' + template._id}>
-                    View
+                    <i class="far fa-eye"></i> preview
                 </Link>
             </div>
+            </main>
         </li>
     )
 }

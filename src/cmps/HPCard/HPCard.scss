@@ -1,0 +1,38 @@
+.h-p-card{
+      display: flex;
+      color: #404145;
+      margin-bottom: 50px;
+      img{
+        padding: 20px;
+      }
+      .card-text{
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .tag{
+          color: blue;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+        }
+        .title{
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 1.2em;
+        }
+        .btn-pointer{
+          color: rgb(93, 93, 194);
+          background-color: white;
+          font-weight: 700;
+          width: 150px;
+          border: none;
+          text-align: left;
+        }
+      }
+      img{
+        flex:1
+      }
+    }
