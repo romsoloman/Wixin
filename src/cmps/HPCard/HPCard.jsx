@@ -6,7 +6,7 @@ export const HPCard = ({tag,title,pa,btn,img,toRight}) => {
 
     const directionStyle = toRight ? "row-reverse" : "row";
     return (
-         <section className="h-p-card" style={{"flexDirection":directionStyle}}>
+         <section className="h-p-card container" style={{"flexDirection":directionStyle}}>
             <div className="card-text">
                 <div className="tag">{tag}</div>
                 <div className="title">{title}</div>

@@ -39,7 +39,7 @@ export const Home = (props) => {
                 <section className="img-container">
                     <img src="https://res.cloudinary.com/dksmeovlj/image/upload/v1607258094/homepage4_xdifqx.png" alt=""/>
                 </section>
-                <section className="h-p-card-txt">
+                <section className="h-p-card-txt container">
                     <h1 className="title">Outstanding Templates</h1>
                     <p>Make your brand standout with our amazing tempaltes.</p>
                 </section>
@@ -47,7 +47,7 @@ export const Home = (props) => {
                     {console.log('templetesToShow', templetesToShow)}
                 <TemplateList templates={templetesToShow} isHomePage={true} />
                 </section>}
-                <footer className="footer container">
+                <footer className="footer">
                     <h1>Coonect with us</h1>
                     <div className="items">
                         <a className="item" href=""><i class="fab fa-facebook-f"></i></a>
