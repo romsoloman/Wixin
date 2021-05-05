@@ -4,15 +4,14 @@ import { useSelector, useDispatch } from 'react-redux';
 import './TemplateDetails.scss'
 import { ControllerAdd } from '../../cmps/ControllerAdd/ControllerAdd';
 
-export const TemplateDetails = ({ id }) => {
+export const TemplateDetails = (props) => {
     const currTemplate = useSelector(state => state.templateReducer.currTemplate)
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(getTemplateById(id));
+        dispatch(getTemplateById(props.match.params.id));
     }, [])
     return (
         currTemplate && <section className="template-container details-page">
-
             <header className="container hero" style={{ backgroundImage: `url(${currTemplate.backgroundImg})` }}>
                 {currTemplate.addOns.header.navbar.map((nav, idx) => {
                     return (

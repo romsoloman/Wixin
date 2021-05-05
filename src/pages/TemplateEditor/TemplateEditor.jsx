@@ -30,7 +30,7 @@ export const TemplateEditor = (props) => {
     return (
         <section className="container editor-container templete-editor">
             <ControllerAdd getCmp={getCmp} templateId={props.match.params.id} />
-            {isEditor && <TemplateDetails id={props.match.params.id} />}
+            {isEditor && <TemplateDetails {...props} />}
             {!isEditor &&
                 (<section className="workspace">
                 </section>)
