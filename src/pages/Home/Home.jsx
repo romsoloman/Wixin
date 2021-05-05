@@ -47,13 +47,13 @@ export const Home = (props) => {
                     {console.log('templetesToShow', templetesToShow)}
                 <TemplateList templates={templetesToShow} isHomePage={true} />
                 </section>}
-                <footer className="footer">
+                <footer className="footer container">
                     <h1>Coonect with us</h1>
                     <div className="items">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-whatsapp"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a className="item" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a className="item" href=""><i class="fab fa-twitter"></i></a>
+                        <a className="item" href=""><i class="fab fa-whatsapp"></i></a>
+                        <a className="item" href=""><i class="fab fa-instagram"></i></a>
                     </div>
                 </footer>
 
