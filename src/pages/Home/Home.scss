@@ -2,46 +2,41 @@
   main{
     font-family: 'Raleway', sans-serif;
     margin-top: 4rem;
+    .h-p-card-txt{
+      text-align: center;
+      margin-top: 100px;
+      .title{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2em;
+      }
+      button{
+        margin-top: 50px;
+        color: rgb(93, 93, 194);
+        background-color: white;
+        font-weight: 700;
+        width: 150px;
+        border: none;
+        text-align: left;
+      }
+    }
     h1{
       text-align: center;
       margin-bottom: 50px;
     }
-    .h-p-card-1{
-      display: flex;
-      color: #404145;
-      img{
-        padding: 20px;
-      }
-      .card-text{
-        padding: 20px;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        .tag{
-          color: white;
-          font-size: 16px;
-          font-weight: 400;
-          text-transform: uppercase;
-          letter-spacing: 4px;
-        }
-        .title{
-          font-size: 36px;
-          font-weight: 700;
-          line-height: 1.2em;
-        }
-        .btn-pointer{
-          color: #404145;
-          background-color: white;
-          font-weight: 700;
-          width: 150px;
-          border: none;
-          text-align: left;
-        }
-      }
-      img{
-        flex:1
-      }
+  }
+  .img-container{
+    width: 100%;
+    img{
+      width: 100%;
+      height: 900px;
     }
+  }
+  .h-p-card-txt{
+    margin-bottom: 50px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
   }
 }
