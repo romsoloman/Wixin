@@ -42,8 +42,7 @@
         "className": "navbar-",
         "backgroundImage": "imgs/navbars/navbar-1.png",
         "html": {
-          "style": {
-          },
+          "style": {},
           "logo": "MY WEB",
           "a": [
             {
@@ -274,8 +273,8 @@
             {
               "txt": "You can find us here  ➡",
               "style": {
-                "fontSize":"24px",
-                "letter-spacing": "2px"
+                "fontSize": "24px",
+                "letterSpacing": "2px"
               }
             }
           ],

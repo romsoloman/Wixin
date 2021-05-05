@@ -30,9 +30,9 @@ export const ControllerAdd = (props) => {
     useEffect(() => {
         dispatch(loadHtmlTags())
     }, [])
-    function getDynamicCmp(tagName, props, getCmp,templateId) {
+    function getDynamicCmp(tagName, props, getCmp, templateId) {
         var DynamicCmp = cmpMap[tagName]
-        return <DynamicCmp props={props} key={props._id} getCmp={getCmp} templateId={templateId}/>
+        return <DynamicCmp props={props} key={props._id} getCmp={getCmp} templateId={templateId} />
     }
     function handleOnDragEnd(result) {
         if (!result.destination) return;
@@ -45,10 +45,18 @@ export const ControllerAdd = (props) => {
 
     return (
         htmlTags && <section className="controller-add">
-            <button className="add-button">Add</button>
-            <button className="add-button">Edit</button>
+            <div className="add-edit-btns">
+                <button className="flex column align-center add-button">
+                    <i className="fas fa-plus"></i>
+                    Add
+                </button>
+                <button className="flex column align-center add-button">
+                    <i className="fas fa-pencil-alt"></i>
+                    Edit
+                </button>
+            </div>
             <div className="tags-list">
-                {htmlTags.map((tag) => getDynamicCmp(tag.tagName, tag, props.getCmp,props.templateId))}
+                {htmlTags.map((tag) => getDynamicCmp(tag.tagName, tag, props.getCmp, props.templateId))}
             </div>
             {/* <DragDropContext>
                 <Droppable droppableId="numbers">

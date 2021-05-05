@@ -2,5 +2,23 @@
     overflow: scroll;
     height: 560px;
     grid-column: 1/1;
-    border-right: 1px solid grey;
+    border-top: 1px solid lightgray;
+    left: 0;
+    .tags-list{
+        width: 100%;
+        padding: 20px;
+    }
+    .add-edit-btns {
+        display: flex;
+        button{
+            padding: 20px;
+            border: none;
+            background-color: white;
+            flex: 1;
+            font-size: 21px;
+            color: #3c4357;
+            font-weight: 300;
+            i{margin-bottom: 10px;}
+        }
+    }
 }

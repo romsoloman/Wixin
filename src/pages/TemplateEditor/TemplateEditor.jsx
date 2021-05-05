@@ -28,7 +28,7 @@ export const TemplateEditor = (props) => {
         console.log(3);
     }
     return (
-        <section className="container editor-container templete-editor">
+        <section className="editor-container templete-editor">
             <ControllerAdd getCmp={getCmp} templateId={props.match.params.id} />
             {isEditor && <TemplateDetails {...props} />}
             {!isEditor &&

@@ -33,13 +33,13 @@ function query() {
     //     .get(TOY_URL, { params: gFilterBy })
     //     .then(({ data }) => data)
     //     .catch((err) => err);
-
-    if (localStorage.getItem(TEMPLATE_KEY)) {
-        return storageService.query(TEMPLATE_KEY)
-    } else {
-        const templates = localStorage.setItem(TEMPLATE_KEY, JSON.stringify(templateData));
+    if (localStorage.getItem(TEMPLATE_KEY)) return storageService.query(TEMPLATE_KEY);
+    else {
+        localStorage.setItem(TEMPLATE_KEY, JSON.stringify(templateData));
+        const templates = localStorage.getItem(TEMPLATE_KEY)
         return Promise.resolve(templates);
     }
+
 }
 
 function getById(id) {
